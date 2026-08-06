@@ -1,8 +1,10 @@
 # univ-ouaga-lage2026
 Training materials for a 2-day groundwater modeling workshop (Burkina Faso) covering Python-based field data analysis, conceptual modeling, and numerical simulation with USGS MODFLOW 6, FloPy, and ZoneBudget.
 
+<a name="getting-started"></a>
+# Getting Started: Cloning the Course Repository and Setting Up Your Python Environment
 
-# Getting Started: Cloning the Course Repository and Setting Up Your Python Environment     **[[Aller a la version Française]](#version-francaise)**
+**[Aller à la version Française](#version-francaise)**
 
 Welcome to the groundwater modeling training! This guide will walk you, step by step, through everything you need to do **before** the workshop begins:
 
@@ -131,7 +133,44 @@ The file `v_env_lage.yml` lists all the Python packages needed for the course. Y
 
 ---
 
-## Step 5: Confirm Everything Works
+## Step 5: Install Additional Python Libraries
+
+The base environment created in Step 4 does not include every package used during the workshop. Two additional libraries — **FloPy** and **GeoPandas** — need to be installed once the `lage` environment is active.
+
+1. Make sure the `lage` environment is activated (you should see `(lage)` at the start of your terminal prompt). If it isn't, activate it first:
+
+```bash
+   conda activate lage
+```
+
+2. Install the additional libraries using **one** of the two options below, depending on whether you are using `conda` or `mamba`.
+
+### Option A: Using `conda`
+
+```bash
+   conda install -c conda-forge flopy geopandas
+```
+
+### Option B: Using `mamba`
+
+```bash
+   mamba install -c conda-forge flopy geopandas
+```
+
+3. Type `y` and press Enter if prompted to confirm the installation. This may take a few minutes, especially for `geopandas`, which has several dependencies.
+4. Once installation finishes, confirm both libraries are available by running:
+
+```bash
+   python -c "import flopy, geopandas; print('flopy:', flopy.__version__); print('geopandas:', geopandas.__version__)"
+```
+
+   If two version numbers print with no errors, both libraries are installed correctly.
+
+> **Note:** Always install `geopandas` from the `conda-forge` channel (as shown above) rather than with `pip`. GeoPandas depends on geospatial libraries (like GDAL) that `conda-forge` handles automatically; installing via `pip` can lead to broken or conflicting dependencies.
+
+---
+
+## Step 6: Confirm Everything Works
 
 1. With the environment activated (you should see `(lage)` at the start of your terminal prompt), launch Jupyter to confirm the setup:
 
@@ -148,6 +187,7 @@ The file `v_env_lage.yml` lists all the Python packages needed for the course. Y
 - **`conda: command not found`** — Close and reopen Git Bash after installing Anaconda/Miniforge, or restart your computer.
 - **Environment creation is slow or fails** — Try the `mamba` option (Option B), which resolves packages faster and more reliably than `conda`.
 - **Activation fails** — Double check you typed `conda activate lage` (or `mamba activate lage`) exactly, and that the environment finished creating without errors.
+- **`geopandas` or `flopy` install is slow or fails** — Try the `mamba` install option, which resolves dependencies faster and more reliably than `conda`. Make sure you included `-c conda-forge` in the command.
 - **Still stuck?** Reach out to the workshop organizers before the session begins so we can troubleshoot together.
 
 ---
@@ -157,9 +197,12 @@ You're all set! See you at the workshop.
 ---
 ---
 
-## Version française  **[[Go to the English Version]](#getting-started-cloning-the-course-repository-and-setting-up-your-python-environment)**
+<a name="version-francaise"></a>
+## Version française
 
-Bienvenue à la formation en modélisation des eaux souterraines ! Ce guide vous accompagnera, étape par étape, dans tout ce que vous devez faire **avant** le début de l'atelier :
+**[Go to the English Version](#getting-started)**
+
+Bienvenue à la formation en modélisation des eaux souterraines ! Ce guide vous accompagnera, étape par étape, dans tout ce que vous devez faire avant le début de l'atelier :
 
 1. Installer les outils nécessaires (Git Bash et Anaconda ou Miniforge)
 2. Cloner le dépôt (repository) du cours
@@ -286,7 +329,44 @@ Le fichier `v_env_lage.yml` répertorie tous les paquets Python nécessaires pou
 
 ---
 
-### Étape 5 : Vérifier que tout fonctionne
+### Étape 5 : Installer des bibliothèques Python supplémentaires
+
+L'environnement de base créé à l'étape 4 n'inclut pas tous les paquets utilisés pendant l'atelier. Deux bibliothèques supplémentaires — **FloPy** et **GeoPandas** — doivent être installées une fois l'environnement `lage` activé.
+
+1. Assurez-vous que l'environnement `lage` est activé (vous devriez voir `(lage)` au début de l'invite de votre terminal). Si ce n'est pas le cas, activez-le d'abord :
+
+```bash
+   conda activate lage
+```
+
+2. Installez les bibliothèques supplémentaires en utilisant **l'une** des deux options ci-dessous, selon que vous utilisez `conda` ou `mamba`.
+
+#### Option A : Avec `conda`
+
+```bash
+   conda install -c conda-forge flopy geopandas
+```
+
+#### Option B : Avec `mamba`
+
+```bash
+   mamba install -c conda-forge flopy geopandas
+```
+
+3. Tapez `y` puis appuyez sur Entrée si l'installation vous demande une confirmation. Cela peut prendre quelques minutes, en particulier pour `geopandas`, qui possède plusieurs dépendances.
+4. Une fois l'installation terminée, vérifiez que les deux bibliothèques sont disponibles en exécutant :
+
+```bash
+   python -c "import flopy, geopandas; print('flopy:', flopy.__version__); print('geopandas:', geopandas.__version__)"
+```
+
+   Si deux numéros de version s'affichent sans erreur, les deux bibliothèques sont correctement installées.
+
+> **Remarque :** Installez toujours `geopandas` depuis le canal `conda-forge` (comme indiqué ci-dessus) plutôt qu'avec `pip`. GeoPandas dépend de bibliothèques géospatiales (comme GDAL) que `conda-forge` gère automatiquement ; une installation via `pip` peut entraîner des dépendances cassées ou en conflit.
+
+---
+
+### Étape 6 : Vérifier que tout fonctionne
 
 1. Une fois l'environnement activé (vous devriez voir `(lage)` au début de l'invite de votre terminal), lancez Jupyter pour vérifier l'installation :
 
@@ -303,6 +383,7 @@ Le fichier `v_env_lage.yml` répertorie tous les paquets Python nécessaires pou
 - **`conda: command not found`** — Fermez et rouvrez Git Bash après avoir installé Anaconda/Miniforge, ou redémarrez votre ordinateur.
 - **La création de l'environnement est lente ou échoue** — Essayez l'option `mamba` (Option B), qui résout les paquets plus rapidement et plus efficacement que `conda`.
 - **L'activation échoue** — Vérifiez que vous avez bien tapé `conda activate lage` (ou `mamba activate lage`) exactement, et que l'environnement s'est créé sans erreur.
+- **L'installation de `geopandas` ou `flopy` est lente ou échoue** — Essayez l'option `mamba`, qui résout les dépendances plus rapidement et plus efficacement que `conda`. Vérifiez que vous avez bien inclus `-c conda-forge` dans la commande.
 - **Toujours bloqué ?** Contactez les organisateurs de l'atelier avant le début de la séance afin que nous puissions résoudre le problème ensemble.
 
 ---
