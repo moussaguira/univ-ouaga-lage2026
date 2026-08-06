@@ -157,9 +157,7 @@ You're all set! See you at the workshop.
 ---
 ---
 
-## Version française
-
-**[English](#getting-started-cloning-the-course-repository-and-setting-up-your-python-environment)**
+## Version française  **[[Go to the English Version]](#getting-started-cloning-the-course-repository-and-setting-up-your-python-environment)**
 
 Bienvenue à la formation en modélisation des eaux souterraines ! Ce guide vous accompagnera, étape par étape, dans tout ce que vous devez faire **avant** le début de l'atelier :
 
