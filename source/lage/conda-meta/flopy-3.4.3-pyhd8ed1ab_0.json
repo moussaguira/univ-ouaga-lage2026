@@ -1,0 +1,4030 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=1.4.0",
+    "numpy >=1.15.0",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "C:\\Users\\mouss\\mambaforge\\pkgs\\flopy-3.4.3-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/flopy-3.4.3.dist-info/INSTALLER",
+    "Lib/site-packages/flopy-3.4.3.dist-info/LICENSE.md",
+    "Lib/site-packages/flopy-3.4.3.dist-info/METADATA",
+    "Lib/site-packages/flopy-3.4.3.dist-info/RECORD",
+    "Lib/site-packages/flopy-3.4.3.dist-info/REQUESTED",
+    "Lib/site-packages/flopy-3.4.3.dist-info/WHEEL",
+    "Lib/site-packages/flopy-3.4.3.dist-info/direct_url.json",
+    "Lib/site-packages/flopy-3.4.3.dist-info/entry_points.txt",
+    "Lib/site-packages/flopy-3.4.3.dist-info/top_level.txt",
+    "Lib/site-packages/flopy/__init__.py",
+    "Lib/site-packages/flopy/datbase.py",
+    "Lib/site-packages/flopy/discretization/__init__.py",
+    "Lib/site-packages/flopy/discretization/grid.py",
+    "Lib/site-packages/flopy/discretization/modeltime.py",
+    "Lib/site-packages/flopy/discretization/structuredgrid.py",
+    "Lib/site-packages/flopy/discretization/unstructuredgrid.py",
+    "Lib/site-packages/flopy/discretization/vertexgrid.py",
+    "Lib/site-packages/flopy/export/__init__.py",
+    "Lib/site-packages/flopy/export/longnames.py",
+    "Lib/site-packages/flopy/export/metadata.py",
+    "Lib/site-packages/flopy/export/netcdf.py",
+    "Lib/site-packages/flopy/export/shapefile_utils.py",
+    "Lib/site-packages/flopy/export/unitsformat.py",
+    "Lib/site-packages/flopy/export/utils.py",
+    "Lib/site-packages/flopy/export/vtk.py",
+    "Lib/site-packages/flopy/mbase.py",
+    "Lib/site-packages/flopy/mf6/__init__.py",
+    "Lib/site-packages/flopy/mf6/coordinates/__init__.py",
+    "Lib/site-packages/flopy/mf6/coordinates/modeldimensions.py",
+    "Lib/site-packages/flopy/mf6/coordinates/modelgrid.py",
+    "Lib/site-packages/flopy/mf6/coordinates/simulationtime.py",
+    "Lib/site-packages/flopy/mf6/data/__init__.py",
+    "Lib/site-packages/flopy/mf6/data/dfn/common.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/exg-gwfgwf.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/exg-gwfgwt.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/exg-gwtgwt.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/flopy.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-api.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-buy.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-chd.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-csub.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-dis.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-disu.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-disv.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-drn.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-evt.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-evta.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-ghb.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-gnc.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-hfb.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-ic.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-lak.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-maw.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-mvr.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-nam.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-npf.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-oc.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-rch.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-rcha.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-riv.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-sfr.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-sto.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-uzf.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-vsc.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwf-wel.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-adv.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-api.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-cnc.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-dis.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-disu.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-disv.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-dsp.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-fmi.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-ic.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-ist.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-lkt.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-mst.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-mvt.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-mwt.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-nam.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-oc.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-sft.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-src.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-ssm.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/gwt-uzt.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/sim-nam.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/sim-tdis.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/sln-ems.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/sln-ims.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-ats.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-laktab.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-obs.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-sfrtab.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-spc.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-spca.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-tas.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-ts.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-tvk.dfn",
+    "Lib/site-packages/flopy/mf6/data/dfn/utl-tvs.dfn",
+    "Lib/site-packages/flopy/mf6/data/mfdata.py",
+    "Lib/site-packages/flopy/mf6/data/mfdataarray.py",
+    "Lib/site-packages/flopy/mf6/data/mfdatalist.py",
+    "Lib/site-packages/flopy/mf6/data/mfdatascalar.py",
+    "Lib/site-packages/flopy/mf6/data/mfdatastorage.py",
+    "Lib/site-packages/flopy/mf6/data/mfdatautil.py",
+    "Lib/site-packages/flopy/mf6/data/mffileaccess.py",
+    "Lib/site-packages/flopy/mf6/data/mfstructure.py",
+    "Lib/site-packages/flopy/mf6/mfbase.py",
+    "Lib/site-packages/flopy/mf6/mfmodel.py",
+    "Lib/site-packages/flopy/mf6/mfpackage.py",
+    "Lib/site-packages/flopy/mf6/modflow/__init__.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfems.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgnc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwf.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfapi.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfbuy.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfchd.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfcsub.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfdis.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfdisu.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfdisv.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfdrn.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfevt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfevta.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfghb.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfgnc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfgwf.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfgwt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfhfb.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfic.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwflak.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfmaw.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfmvr.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfnam.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfnpf.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfoc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfrch.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfrcha.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfriv.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfsfr.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfsto.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfuzf.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfvsc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwfwel.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtadv.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtapi.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtcnc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtdis.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtdisu.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtdisv.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtdsp.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtfmi.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtgwt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtic.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtist.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtlkt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtmst.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtmvt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtmwt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtnam.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtoc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtsft.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtsrc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtssm.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfgwtuzt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfims.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfmvr.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfmvt.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfnam.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfsimulation.py",
+    "Lib/site-packages/flopy/mf6/modflow/mftdis.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutlats.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutllaktab.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutlobs.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutlsfrtab.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutlspc.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutlspca.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutltas.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutlts.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutltvk.py",
+    "Lib/site-packages/flopy/mf6/modflow/mfutltvs.py",
+    "Lib/site-packages/flopy/mf6/utils/__init__.py",
+    "Lib/site-packages/flopy/mf6/utils/binaryfile_utils.py",
+    "Lib/site-packages/flopy/mf6/utils/binarygrid_util.py",
+    "Lib/site-packages/flopy/mf6/utils/createpackages.py",
+    "Lib/site-packages/flopy/mf6/utils/generate_classes.py",
+    "Lib/site-packages/flopy/mf6/utils/lakpak_utils.py",
+    "Lib/site-packages/flopy/mf6/utils/mfenums.py",
+    "Lib/site-packages/flopy/mf6/utils/mfobservation.py",
+    "Lib/site-packages/flopy/mf6/utils/model_splitter.py",
+    "Lib/site-packages/flopy/mf6/utils/output_util.py",
+    "Lib/site-packages/flopy/mf6/utils/postprocessing.py",
+    "Lib/site-packages/flopy/mf6/utils/reference.py",
+    "Lib/site-packages/flopy/mf6/utils/testutils.py",
+    "Lib/site-packages/flopy/mfusg/__init__.py",
+    "Lib/site-packages/flopy/mfusg/cln_dtypes.py",
+    "Lib/site-packages/flopy/mfusg/mfusg.py",
+    "Lib/site-packages/flopy/mfusg/mfusgbcf.py",
+    "Lib/site-packages/flopy/mfusg/mfusgcln.py",
+    "Lib/site-packages/flopy/mfusg/mfusgdisu.py",
+    "Lib/site-packages/flopy/mfusg/mfusggnc.py",
+    "Lib/site-packages/flopy/mfusg/mfusglpf.py",
+    "Lib/site-packages/flopy/mfusg/mfusgsms.py",
+    "Lib/site-packages/flopy/mfusg/mfusgwel.py",
+    "Lib/site-packages/flopy/modflow/__init__.py",
+    "Lib/site-packages/flopy/modflow/mf.py",
+    "Lib/site-packages/flopy/modflow/mfaddoutsidefile.py",
+    "Lib/site-packages/flopy/modflow/mfag.py",
+    "Lib/site-packages/flopy/modflow/mfbas.py",
+    "Lib/site-packages/flopy/modflow/mfbcf.py",
+    "Lib/site-packages/flopy/modflow/mfbct.py",
+    "Lib/site-packages/flopy/modflow/mfchd.py",
+    "Lib/site-packages/flopy/modflow/mfde4.py",
+    "Lib/site-packages/flopy/modflow/mfdis.py",
+    "Lib/site-packages/flopy/modflow/mfdrn.py",
+    "Lib/site-packages/flopy/modflow/mfdrt.py",
+    "Lib/site-packages/flopy/modflow/mfevt.py",
+    "Lib/site-packages/flopy/modflow/mffhb.py",
+    "Lib/site-packages/flopy/modflow/mfflwob.py",
+    "Lib/site-packages/flopy/modflow/mfgage.py",
+    "Lib/site-packages/flopy/modflow/mfghb.py",
+    "Lib/site-packages/flopy/modflow/mfgmg.py",
+    "Lib/site-packages/flopy/modflow/mfhfb.py",
+    "Lib/site-packages/flopy/modflow/mfhob.py",
+    "Lib/site-packages/flopy/modflow/mfhyd.py",
+    "Lib/site-packages/flopy/modflow/mflak.py",
+    "Lib/site-packages/flopy/modflow/mflmt.py",
+    "Lib/site-packages/flopy/modflow/mflpf.py",
+    "Lib/site-packages/flopy/modflow/mfmlt.py",
+    "Lib/site-packages/flopy/modflow/mfmnw1.py",
+    "Lib/site-packages/flopy/modflow/mfmnw2.py",
+    "Lib/site-packages/flopy/modflow/mfmnwi.py",
+    "Lib/site-packages/flopy/modflow/mfnwt.py",
+    "Lib/site-packages/flopy/modflow/mfoc.py",
+    "Lib/site-packages/flopy/modflow/mfpar.py",
+    "Lib/site-packages/flopy/modflow/mfparbc.py",
+    "Lib/site-packages/flopy/modflow/mfpbc.py",
+    "Lib/site-packages/flopy/modflow/mfpcg.py",
+    "Lib/site-packages/flopy/modflow/mfpcgn.py",
+    "Lib/site-packages/flopy/modflow/mfpks.py",
+    "Lib/site-packages/flopy/modflow/mfpval.py",
+    "Lib/site-packages/flopy/modflow/mfrch.py",
+    "Lib/site-packages/flopy/modflow/mfriv.py",
+    "Lib/site-packages/flopy/modflow/mfsfr2.py",
+    "Lib/site-packages/flopy/modflow/mfsip.py",
+    "Lib/site-packages/flopy/modflow/mfsor.py",
+    "Lib/site-packages/flopy/modflow/mfstr.py",
+    "Lib/site-packages/flopy/modflow/mfsub.py",
+    "Lib/site-packages/flopy/modflow/mfswi2.py",
+    "Lib/site-packages/flopy/modflow/mfswr1.py",
+    "Lib/site-packages/flopy/modflow/mfswt.py",
+    "Lib/site-packages/flopy/modflow/mfupw.py",
+    "Lib/site-packages/flopy/modflow/mfuzf1.py",
+    "Lib/site-packages/flopy/modflow/mfwel.py",
+    "Lib/site-packages/flopy/modflow/mfzon.py",
+    "Lib/site-packages/flopy/modflowlgr/__init__.py",
+    "Lib/site-packages/flopy/modflowlgr/mflgr.py",
+    "Lib/site-packages/flopy/modpath/__init__.py",
+    "Lib/site-packages/flopy/modpath/mp6.py",
+    "Lib/site-packages/flopy/modpath/mp6bas.py",
+    "Lib/site-packages/flopy/modpath/mp6sim.py",
+    "Lib/site-packages/flopy/modpath/mp7.py",
+    "Lib/site-packages/flopy/modpath/mp7bas.py",
+    "Lib/site-packages/flopy/modpath/mp7particledata.py",
+    "Lib/site-packages/flopy/modpath/mp7particlegroup.py",
+    "Lib/site-packages/flopy/modpath/mp7sim.py",
+    "Lib/site-packages/flopy/mt3d/__init__.py",
+    "Lib/site-packages/flopy/mt3d/mt.py",
+    "Lib/site-packages/flopy/mt3d/mtadv.py",
+    "Lib/site-packages/flopy/mt3d/mtbtn.py",
+    "Lib/site-packages/flopy/mt3d/mtcts.py",
+    "Lib/site-packages/flopy/mt3d/mtdsp.py",
+    "Lib/site-packages/flopy/mt3d/mtgcg.py",
+    "Lib/site-packages/flopy/mt3d/mtlkt.py",
+    "Lib/site-packages/flopy/mt3d/mtphc.py",
+    "Lib/site-packages/flopy/mt3d/mtrct.py",
+    "Lib/site-packages/flopy/mt3d/mtsft.py",
+    "Lib/site-packages/flopy/mt3d/mtssm.py",
+    "Lib/site-packages/flopy/mt3d/mttob.py",
+    "Lib/site-packages/flopy/mt3d/mtuzt.py",
+    "Lib/site-packages/flopy/pakbase.py",
+    "Lib/site-packages/flopy/pest/__init__.py",
+    "Lib/site-packages/flopy/pest/params.py",
+    "Lib/site-packages/flopy/pest/templatewriter.py",
+    "Lib/site-packages/flopy/pest/tplarray.py",
+    "Lib/site-packages/flopy/plot/__init__.py",
+    "Lib/site-packages/flopy/plot/crosssection.py",
+    "Lib/site-packages/flopy/plot/map.py",
+    "Lib/site-packages/flopy/plot/mplstyle/usgsmap.mplstyle",
+    "Lib/site-packages/flopy/plot/mplstyle/usgsmap_linux.mplstyle",
+    "Lib/site-packages/flopy/plot/mplstyle/usgsplot.mplstyle",
+    "Lib/site-packages/flopy/plot/mplstyle/usgsplot_linux.mplstyle",
+    "Lib/site-packages/flopy/plot/plotutil.py",
+    "Lib/site-packages/flopy/plot/styles.py",
+    "Lib/site-packages/flopy/seawat/__init__.py",
+    "Lib/site-packages/flopy/seawat/swt.py",
+    "Lib/site-packages/flopy/seawat/swtvdf.py",
+    "Lib/site-packages/flopy/seawat/swtvsc.py",
+    "Lib/site-packages/flopy/utils/__init__.py",
+    "Lib/site-packages/flopy/utils/binaryfile.py",
+    "Lib/site-packages/flopy/utils/check.py",
+    "Lib/site-packages/flopy/utils/compare.py",
+    "Lib/site-packages/flopy/utils/crs.py",
+    "Lib/site-packages/flopy/utils/cvfdutil.py",
+    "Lib/site-packages/flopy/utils/datafile.py",
+    "Lib/site-packages/flopy/utils/datautil.py",
+    "Lib/site-packages/flopy/utils/flopy_io.py",
+    "Lib/site-packages/flopy/utils/formattedfile.py",
+    "Lib/site-packages/flopy/utils/geometry.py",
+    "Lib/site-packages/flopy/utils/geospatial_utils.py",
+    "Lib/site-packages/flopy/utils/get_modflow.py",
+    "Lib/site-packages/flopy/utils/gridgen.py",
+    "Lib/site-packages/flopy/utils/gridintersect.py",
+    "Lib/site-packages/flopy/utils/gridutil.py",
+    "Lib/site-packages/flopy/utils/lgrutil.py",
+    "Lib/site-packages/flopy/utils/mflistfile.py",
+    "Lib/site-packages/flopy/utils/mfreadnam.py",
+    "Lib/site-packages/flopy/utils/modpathfile.py",
+    "Lib/site-packages/flopy/utils/mtlistfile.py",
+    "Lib/site-packages/flopy/utils/observationfile.py",
+    "Lib/site-packages/flopy/utils/optionblock.py",
+    "Lib/site-packages/flopy/utils/parse_version.py",
+    "Lib/site-packages/flopy/utils/postprocessing.py",
+    "Lib/site-packages/flopy/utils/rasters.py",
+    "Lib/site-packages/flopy/utils/recarray_utils.py",
+    "Lib/site-packages/flopy/utils/reference.py",
+    "Lib/site-packages/flopy/utils/sfroutputfile.py",
+    "Lib/site-packages/flopy/utils/swroutputfile.py",
+    "Lib/site-packages/flopy/utils/triangle.py",
+    "Lib/site-packages/flopy/utils/util_array.py",
+    "Lib/site-packages/flopy/utils/util_list.py",
+    "Lib/site-packages/flopy/utils/utils_def.py",
+    "Lib/site-packages/flopy/utils/utl_import.py",
+    "Lib/site-packages/flopy/utils/voronoi.py",
+    "Lib/site-packages/flopy/utils/zonbud.py",
+    "Lib/site-packages/flopy/version.py",
+    "Lib/site-packages/flopy/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/__pycache__/datbase.cpython-39.pyc",
+    "Lib/site-packages/flopy/discretization/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/discretization/__pycache__/grid.cpython-39.pyc",
+    "Lib/site-packages/flopy/discretization/__pycache__/modeltime.cpython-39.pyc",
+    "Lib/site-packages/flopy/discretization/__pycache__/structuredgrid.cpython-39.pyc",
+    "Lib/site-packages/flopy/discretization/__pycache__/unstructuredgrid.cpython-39.pyc",
+    "Lib/site-packages/flopy/discretization/__pycache__/vertexgrid.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/longnames.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/metadata.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/netcdf.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/shapefile_utils.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/unitsformat.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/flopy/export/__pycache__/vtk.cpython-39.pyc",
+    "Lib/site-packages/flopy/__pycache__/mbase.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/coordinates/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/coordinates/__pycache__/modeldimensions.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/coordinates/__pycache__/modelgrid.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/coordinates/__pycache__/simulationtime.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mfdata.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mfdataarray.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatalist.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatascalar.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatastorage.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatautil.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mffileaccess.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/data/__pycache__/mfstructure.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/__pycache__/mfbase.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/__pycache__/mfmodel.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/__pycache__/mfpackage.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfems.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgnc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwf.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfapi.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfbuy.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfchd.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfcsub.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdis.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdisu.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdisv.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdrn.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfevt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfevta.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfghb.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfgnc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfgwf.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfgwt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfhfb.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfic.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwflak.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfmaw.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfmvr.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfnam.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfnpf.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfoc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfrch.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfrcha.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfriv.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfsfr.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfsto.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfuzf.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfvsc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfwel.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtadv.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtapi.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtcnc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdis.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdisu.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdisv.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdsp.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtfmi.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtgwt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtic.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtist.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtlkt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtmst.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtmvt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtmwt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtnam.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtoc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtsft.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtsrc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtssm.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtuzt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfims.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfmvr.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfmvt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfnam.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfsimulation.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mftdis.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlats.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutllaktab.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlobs.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlsfrtab.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlspc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlspca.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutltas.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlts.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutltvk.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutltvs.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/binaryfile_utils.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/binarygrid_util.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/createpackages.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/generate_classes.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/lakpak_utils.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/mfenums.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/mfobservation.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/model_splitter.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/output_util.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/postprocessing.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/reference.cpython-39.pyc",
+    "Lib/site-packages/flopy/mf6/utils/__pycache__/testutils.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/cln_dtypes.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusg.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusgbcf.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusgcln.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusgdisu.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusggnc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusglpf.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusgsms.cpython-39.pyc",
+    "Lib/site-packages/flopy/mfusg/__pycache__/mfusgwel.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mf.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfaddoutsidefile.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfag.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfbas.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfbcf.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfbct.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfchd.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfde4.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfdis.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfdrn.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfdrt.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfevt.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mffhb.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfflwob.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfgage.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfghb.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfgmg.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfhfb.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfhob.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfhyd.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mflak.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mflmt.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mflpf.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfmlt.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfmnw1.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfmnw2.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfmnwi.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfnwt.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfoc.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfpar.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfparbc.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfpbc.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfpcg.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfpcgn.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfpks.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfpval.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfrch.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfriv.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfsfr2.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfsip.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfsor.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfstr.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfsub.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfswi2.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfswr1.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfswt.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfupw.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfuzf1.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfwel.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflow/__pycache__/mfzon.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflowlgr/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/modflowlgr/__pycache__/mflgr.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp6.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp6bas.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp6sim.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp7.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp7bas.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp7particledata.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp7particlegroup.cpython-39.pyc",
+    "Lib/site-packages/flopy/modpath/__pycache__/mp7sim.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtadv.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtbtn.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtcts.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtdsp.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtgcg.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtlkt.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtphc.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtrct.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtsft.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtssm.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mttob.cpython-39.pyc",
+    "Lib/site-packages/flopy/mt3d/__pycache__/mtuzt.cpython-39.pyc",
+    "Lib/site-packages/flopy/__pycache__/pakbase.cpython-39.pyc",
+    "Lib/site-packages/flopy/pest/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/pest/__pycache__/params.cpython-39.pyc",
+    "Lib/site-packages/flopy/pest/__pycache__/templatewriter.cpython-39.pyc",
+    "Lib/site-packages/flopy/pest/__pycache__/tplarray.cpython-39.pyc",
+    "Lib/site-packages/flopy/plot/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/plot/__pycache__/crosssection.cpython-39.pyc",
+    "Lib/site-packages/flopy/plot/__pycache__/map.cpython-39.pyc",
+    "Lib/site-packages/flopy/plot/__pycache__/plotutil.cpython-39.pyc",
+    "Lib/site-packages/flopy/plot/__pycache__/styles.cpython-39.pyc",
+    "Lib/site-packages/flopy/seawat/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/seawat/__pycache__/swt.cpython-39.pyc",
+    "Lib/site-packages/flopy/seawat/__pycache__/swtvdf.cpython-39.pyc",
+    "Lib/site-packages/flopy/seawat/__pycache__/swtvsc.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/binaryfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/check.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/compare.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/crs.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/cvfdutil.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/datafile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/datautil.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/flopy_io.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/formattedfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/geometry.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/geospatial_utils.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/get_modflow.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/gridgen.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/gridintersect.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/gridutil.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/lgrutil.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/mflistfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/mfreadnam.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/modpathfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/mtlistfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/observationfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/optionblock.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/parse_version.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/postprocessing.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/rasters.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/recarray_utils.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/reference.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/sfroutputfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/swroutputfile.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/triangle.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/util_array.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/util_list.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/utils_def.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/utl_import.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/voronoi.cpython-39.pyc",
+    "Lib/site-packages/flopy/utils/__pycache__/zonbud.cpython-39.pyc",
+    "Lib/site-packages/flopy/__pycache__/version.cpython-39.pyc",
+    "Scripts/get-modflow-script.py",
+    "Scripts/get-modflow.exe"
+  ],
+  "fn": "flopy-3.4.3-pyhd8ed1ab_0.conda",
+  "license": "CC0-1.0",
+  "link": {
+    "source": "C:\\Users\\mouss\\mambaforge\\pkgs\\flopy-3.4.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "7434458ec6c1ac6a065159a3d24f5256",
+  "name": "flopy",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\mouss\\mambaforge\\pkgs\\flopy-3.4.3-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "35df50fd460e77a10e5969fc390de5ad6596ce15ce78b0b201dee13a96a1a065",
+        "sha256_in_prefix": "35df50fd460e77a10e5969fc390de5ad6596ce15ce78b0b201dee13a96a1a065",
+        "size_in_bytes": 1627
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "26eb0d92ccb608c475fb03e14d39da4c3ffe2cae2f2c0a52afbadd9f52a7ecfa",
+        "sha256_in_prefix": "26eb0d92ccb608c475fb03e14d39da4c3ffe2cae2f2c0a52afbadd9f52a7ecfa",
+        "size_in_bytes": 7715
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "eb0403840452cf3aba58ac5444c1b0cc50aaa466f47f3708f9167cca0ead4da4",
+        "sha256_in_prefix": "eb0403840452cf3aba58ac5444c1b0cc50aaa466f47f3708f9167cca0ead4da4",
+        "size_in_bytes": 42743
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a934ddf9f3ecd0c100a10ec82e026b1fc5be51682e21547a71974c29d40bf9de",
+        "sha256_in_prefix": "a934ddf9f3ecd0c100a10ec82e026b1fc5be51682e21547a71974c29d40bf9de",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "b2798fd34d22c876773e032a2d16586803dba453f39ec8dd91ed95cca355674b",
+        "sha256_in_prefix": "b2798fd34d22c876773e032a2d16586803dba453f39ec8dd91ed95cca355674b",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/flopy-3.4.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "337f9dca143e09e66f961e19982bd54903e57bf464ac1f32a8cfe5af810d4011",
+        "sha256_in_prefix": "337f9dca143e09e66f961e19982bd54903e57bf464ac1f32a8cfe5af810d4011",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/flopy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "16ed7bfba281a79245c308b027dcadb551efa70286ae86c2b1da4e7d4d2a821f",
+        "sha256_in_prefix": "16ed7bfba281a79245c308b027dcadb551efa70286ae86c2b1da4e7d4d2a821f",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "site-packages/flopy/datbase.py",
+        "path_type": "hardlink",
+        "sha256": "c979345099ab1cf239b6f77b64970b0432a3814517cdc68aaf81549f197c5d9f",
+        "sha256_in_prefix": "c979345099ab1cf239b6f77b64970b0432a3814517cdc68aaf81549f197c5d9f",
+        "size_in_bytes": 2032
+      },
+      {
+        "_path": "site-packages/flopy/discretization/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e7bcbe217a2cb45ba82369af8db01d135a0e14ce5f9edabd4941391f65a45c52",
+        "sha256_in_prefix": "e7bcbe217a2cb45ba82369af8db01d135a0e14ce5f9edabd4941391f65a45c52",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "site-packages/flopy/discretization/grid.py",
+        "path_type": "hardlink",
+        "sha256": "49fb840ab1bd49f893633e98e4aa5cd584ee494858cf800a2141870e487b4f68",
+        "sha256_in_prefix": "49fb840ab1bd49f893633e98e4aa5cd584ee494858cf800a2141870e487b4f68",
+        "size_in_bytes": 35247
+      },
+      {
+        "_path": "site-packages/flopy/discretization/modeltime.py",
+        "path_type": "hardlink",
+        "sha256": "1eb8ab4e38bb1bedb1e3b1e05b6c4554ee2ba8f37e910af5b38581f2dad506ba",
+        "sha256_in_prefix": "1eb8ab4e38bb1bedb1e3b1e05b6c4554ee2ba8f37e910af5b38581f2dad506ba",
+        "size_in_bytes": 2228
+      },
+      {
+        "_path": "site-packages/flopy/discretization/structuredgrid.py",
+        "path_type": "hardlink",
+        "sha256": "33f81231759ceb973d9d9a42690a64e6948cc3a3eac83d0d36e4e36a8e5b65aa",
+        "sha256_in_prefix": "33f81231759ceb973d9d9a42690a64e6948cc3a3eac83d0d36e4e36a8e5b65aa",
+        "size_in_bytes": 62898
+      },
+      {
+        "_path": "site-packages/flopy/discretization/unstructuredgrid.py",
+        "path_type": "hardlink",
+        "sha256": "f18e1cc943e9c53fd480251e76ff6daecd970722185ca294cc734dc4e518e0d5",
+        "sha256_in_prefix": "f18e1cc943e9c53fd480251e76ff6daecd970722185ca294cc734dc4e518e0d5",
+        "size_in_bytes": 32729
+      },
+      {
+        "_path": "site-packages/flopy/discretization/vertexgrid.py",
+        "path_type": "hardlink",
+        "sha256": "dbe82f853100f1a726fd2e94e4909e83b97da0b5395f1f1fc8b12ceadbf6a55a",
+        "sha256_in_prefix": "dbe82f853100f1a726fd2e94e4909e83b97da0b5395f1f1fc8b12ceadbf6a55a",
+        "size_in_bytes": 17946
+      },
+      {
+        "_path": "site-packages/flopy/export/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0e0ae8d635aee97f0835163be728479dd489ede297bc8761067a3c1f6bdb5455",
+        "sha256_in_prefix": "0e0ae8d635aee97f0835163be728479dd489ede297bc8761067a3c1f6bdb5455",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/flopy/export/longnames.py",
+        "path_type": "hardlink",
+        "sha256": "56b232189f3fa85f0b98df688580ecd0b9a33b290d90e38fe1788923596551bc",
+        "sha256_in_prefix": "56b232189f3fa85f0b98df688580ecd0b9a33b290d90e38fe1788923596551bc",
+        "size_in_bytes": 4645
+      },
+      {
+        "_path": "site-packages/flopy/export/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "c1696a552aa3e32da979c4bb393d147b85464b62ae7591d279d700dca5df2cfc",
+        "sha256_in_prefix": "c1696a552aa3e32da979c4bb393d147b85464b62ae7591d279d700dca5df2cfc",
+        "size_in_bytes": 9672
+      },
+      {
+        "_path": "site-packages/flopy/export/netcdf.py",
+        "path_type": "hardlink",
+        "sha256": "1a951479e7c724ad68e622f3cd2fbdeeb4e34c26288aa4afacc1b0c877a85a69",
+        "sha256_in_prefix": "1a951479e7c724ad68e622f3cd2fbdeeb4e34c26288aa4afacc1b0c877a85a69",
+        "size_in_bytes": 49755
+      },
+      {
+        "_path": "site-packages/flopy/export/shapefile_utils.py",
+        "path_type": "hardlink",
+        "sha256": "9782f96fc0ec8978fff8d426063242becf01df4a339898489d0681056947d429",
+        "sha256_in_prefix": "9782f96fc0ec8978fff8d426063242becf01df4a339898489d0681056947d429",
+        "size_in_bytes": 22173
+      },
+      {
+        "_path": "site-packages/flopy/export/unitsformat.py",
+        "path_type": "hardlink",
+        "sha256": "a2945caaa3e645494f405bd101e3c9cc94f3279b9986a9b23066c6400ebe40df",
+        "sha256_in_prefix": "a2945caaa3e645494f405bd101e3c9cc94f3279b9986a9b23066c6400ebe40df",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "site-packages/flopy/export/utils.py",
+        "path_type": "hardlink",
+        "sha256": "de1d135efea61f55f3a27c84973b4fab6d3c87b27f706b3cd5318d9096e8d9ff",
+        "sha256_in_prefix": "de1d135efea61f55f3a27c84973b4fab6d3c87b27f706b3cd5318d9096e8d9ff",
+        "size_in_bytes": 68611
+      },
+      {
+        "_path": "site-packages/flopy/export/vtk.py",
+        "path_type": "hardlink",
+        "sha256": "8eea5deb41004a1b20c76125a6d78dae59fe646fc2660f6da408168c8a15c953",
+        "sha256_in_prefix": "8eea5deb41004a1b20c76125a6d78dae59fe646fc2660f6da408168c8a15c953",
+        "size_in_bytes": 67942
+      },
+      {
+        "_path": "site-packages/flopy/mbase.py",
+        "path_type": "hardlink",
+        "sha256": "b40bdce1640ffc01a8e793371059ecdeb961f2bd3a3e30b456a5a096a6478abd",
+        "sha256_in_prefix": "b40bdce1640ffc01a8e793371059ecdeb961f2bd3a3e30b456a5a096a6478abd",
+        "size_in_bytes": 60485
+      },
+      {
+        "_path": "site-packages/flopy/mf6/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "88fe65fff589493035156d2ad5b351f80cfcf723838dc6045d45a242d11b1f7a",
+        "sha256_in_prefix": "88fe65fff589493035156d2ad5b351f80cfcf723838dc6045d45a242d11b1f7a",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "site-packages/flopy/mf6/coordinates/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flopy/mf6/coordinates/modeldimensions.py",
+        "path_type": "hardlink",
+        "sha256": "375b1529a1719a194cc3fd68e1d44fcad6e0ab9333ba3ec848d701814275b6fe",
+        "sha256_in_prefix": "375b1529a1719a194cc3fd68e1d44fcad6e0ab9333ba3ec848d701814275b6fe",
+        "size_in_bytes": 31883
+      },
+      {
+        "_path": "site-packages/flopy/mf6/coordinates/modelgrid.py",
+        "path_type": "hardlink",
+        "sha256": "1a2a1b0777681e29c81927deca0313183050672fa2338f43de151ff71a8ef011",
+        "sha256_in_prefix": "1a2a1b0777681e29c81927deca0313183050672fa2338f43de151ff71a8ef011",
+        "size_in_bytes": 26169
+      },
+      {
+        "_path": "site-packages/flopy/mf6/coordinates/simulationtime.py",
+        "path_type": "hardlink",
+        "sha256": "e2ff80df38a2b9222b8743610e1aecce06947169e78f99375b42485992042f8f",
+        "sha256_in_prefix": "e2ff80df38a2b9222b8743610e1aecce06947169e78f99375b42485992042f8f",
+        "size_in_bytes": 2924
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4148d6ee5299eab9633e703c168297c87da22991437127fb83009c796d2a3f6c",
+        "sha256_in_prefix": "4148d6ee5299eab9633e703c168297c87da22991437127fb83009c796d2a3f6c",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/common.dfn",
+        "path_type": "hardlink",
+        "sha256": "d18f7a8c5794d974b0d86fdbd6c0610c74245197126d3f980b841a822b7cdc2d",
+        "sha256_in_prefix": "d18f7a8c5794d974b0d86fdbd6c0610c74245197126d3f980b841a822b7cdc2d",
+        "size_in_bytes": 5637
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/exg-gwfgwf.dfn",
+        "path_type": "hardlink",
+        "sha256": "f9a74791a9ca9d7868369baeaa64efe1da4d498a0219a655b2166c2e0cc7043c",
+        "sha256_in_prefix": "f9a74791a9ca9d7868369baeaa64efe1da4d498a0219a655b2166c2e0cc7043c",
+        "size_in_bytes": 11679
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/exg-gwfgwt.dfn",
+        "path_type": "hardlink",
+        "sha256": "01125fe3f48ef716ce29005172358a1ce726e9c835cb83b98284316749ac4dc9",
+        "sha256_in_prefix": "01125fe3f48ef716ce29005172358a1ce726e9c835cb83b98284316749ac4dc9",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/exg-gwtgwt.dfn",
+        "path_type": "hardlink",
+        "sha256": "841631c43fefba91030d80869833f9d9ceac6d8e26f903944532c662fcab9ca0",
+        "sha256_in_prefix": "841631c43fefba91030d80869833f9d9ceac6d8e26f903944532c662fcab9ca0",
+        "size_in_bytes": 9344
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/flopy.dfn",
+        "path_type": "hardlink",
+        "sha256": "aea13711a9027dcf639920d6272ddd08fbb789c21ce836cc58b3dee3d191a48f",
+        "sha256_in_prefix": "aea13711a9027dcf639920d6272ddd08fbb789c21ce836cc58b3dee3d191a48f",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-api.dfn",
+        "path_type": "hardlink",
+        "sha256": "6792fd6f7279ed51154d01b38f5d8c1179e103067af80afe15e8574270f86e76",
+        "sha256_in_prefix": "6792fd6f7279ed51154d01b38f5d8c1179e103067af80afe15e8574270f86e76",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-buy.dfn",
+        "path_type": "hardlink",
+        "sha256": "a3a27c9815113b7097f3374ebf7414c347f6b64a65599c6d8f09d28cc764ba5b",
+        "sha256_in_prefix": "a3a27c9815113b7097f3374ebf7414c347f6b64a65599c6d8f09d28cc764ba5b",
+        "size_in_bytes": 4910
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-chd.dfn",
+        "path_type": "hardlink",
+        "sha256": "fcbcd1cb02bdcc280181d7dba04e72100bb53dab61a54bac676ef4024da73627",
+        "sha256_in_prefix": "fcbcd1cb02bdcc280181d7dba04e72100bb53dab61a54bac676ef4024da73627",
+        "size_in_bytes": 3977
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-csub.dfn",
+        "path_type": "hardlink",
+        "sha256": "098b717eb73b45c47e5549ed3b92e8cfa8634e78f80c030584f4aa3e045084e6",
+        "sha256_in_prefix": "098b717eb73b45c47e5549ed3b92e8cfa8634e78f80c030584f4aa3e045084e6",
+        "size_in_bytes": 22008
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-dis.dfn",
+        "path_type": "hardlink",
+        "sha256": "79f3725a78c44ad896e582ca9c1c441958632195fe478745dbb59a76714f5381",
+        "sha256_in_prefix": "79f3725a78c44ad896e582ca9c1c441958632195fe478745dbb59a76714f5381",
+        "size_in_bytes": 3986
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-disu.dfn",
+        "path_type": "hardlink",
+        "sha256": "24443962c9e32126eb2191238f5b5d50e183f0206278cc855208ca75456d42c1",
+        "sha256_in_prefix": "24443962c9e32126eb2191238f5b5d50e183f0206278cc855208ca75456d42c1",
+        "size_in_bytes": 11474
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-disv.dfn",
+        "path_type": "hardlink",
+        "sha256": "56bb7527a7a4fa8577bc38ba8d6419eb619078f4a6c05b07615597f0e4b0f804",
+        "sha256_in_prefix": "56bb7527a7a4fa8577bc38ba8d6419eb619078f4a6c05b07615597f0e4b0f804",
+        "size_in_bytes": 6172
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-drn.dfn",
+        "path_type": "hardlink",
+        "sha256": "dc2d35f4535ef39a3b1c24c6d321f68a793d8e471e4c688f5ca3e49d71d8647b",
+        "sha256_in_prefix": "dc2d35f4535ef39a3b1c24c6d321f68a793d8e471e4c688f5ca3e49d71d8647b",
+        "size_in_bytes": 5428
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-evt.dfn",
+        "path_type": "hardlink",
+        "sha256": "1505e056750bea83f7fb429246c6147c2fa6159fc57c2d9c6efcbf54272c98fb",
+        "sha256_in_prefix": "1505e056750bea83f7fb429246c6147c2fa6159fc57c2d9c6efcbf54272c98fb",
+        "size_in_bytes": 7652
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-evta.dfn",
+        "path_type": "hardlink",
+        "sha256": "cdb2e73812f8405456416d27708d7d8fca1f1b9b1169cb3aad8aaec1f3f14eae",
+        "sha256_in_prefix": "cdb2e73812f8405456416d27708d7d8fca1f1b9b1169cb3aad8aaec1f3f14eae",
+        "size_in_bytes": 4987
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-ghb.dfn",
+        "path_type": "hardlink",
+        "sha256": "a0b5a2f87a1e09a77c158c85aa52438c793cc8f8842fadd775f8ab921952c617",
+        "sha256_in_prefix": "a0b5a2f87a1e09a77c158c85aa52438c793cc8f8842fadd775f8ab921952c617",
+        "size_in_bytes": 4632
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-gnc.dfn",
+        "path_type": "hardlink",
+        "sha256": "07316ab5dc2b9f3b762897579cafb442f7cb0d96318e6df7be4743daf2830ccd",
+        "sha256_in_prefix": "07316ab5dc2b9f3b762897579cafb442f7cb0d96318e6df7be4743daf2830ccd",
+        "size_in_bytes": 4404
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-hfb.dfn",
+        "path_type": "hardlink",
+        "sha256": "0141c91a2ce10dac450d49e0b36dfc0a72443a8fd3b649869271612b65cd5177",
+        "sha256_in_prefix": "0141c91a2ce10dac450d49e0b36dfc0a72443a8fd3b649869271612b65cd5177",
+        "size_in_bytes": 2759
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-ic.dfn",
+        "path_type": "hardlink",
+        "sha256": "4c644a43bcbcf70addadd7e0ef38c9744e6b3c6ee851bba5b2accb42f71a0b05",
+        "sha256_in_prefix": "4c644a43bcbcf70addadd7e0ef38c9744e6b3c6ee851bba5b2accb42f71a0b05",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-lak.dfn",
+        "path_type": "hardlink",
+        "sha256": "31937782c3015c64b38bd913f55daa93d3e90d2527157dba9abedc14ee36ddbe",
+        "sha256_in_prefix": "31937782c3015c64b38bd913f55daa93d3e90d2527157dba9abedc14ee36ddbe",
+        "size_in_bytes": 28965
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-maw.dfn",
+        "path_type": "hardlink",
+        "sha256": "b531b86d342fd29c9c07c6df8cba7839684822be8d0411a03457078a07db0994",
+        "sha256_in_prefix": "b531b86d342fd29c9c07c6df8cba7839684822be8d0411a03457078a07db0994",
+        "size_in_bytes": 27088
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-mvr.dfn",
+        "path_type": "hardlink",
+        "sha256": "0f16706ab873821dbe9bb85c2ea2fe29dbfaea70f3a008f4e051518382477135",
+        "sha256_in_prefix": "0f16706ab873821dbe9bb85c2ea2fe29dbfaea70f3a008f4e051518382477135",
+        "size_in_bytes": 7223
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-nam.dfn",
+        "path_type": "hardlink",
+        "sha256": "a9aaeffa41e919533e99ee8100c6f3248600132a075666630af09e198c05e0a6",
+        "sha256_in_prefix": "a9aaeffa41e919533e99ee8100c6f3248600132a075666630af09e198c05e0a6",
+        "size_in_bytes": 3534
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-npf.dfn",
+        "path_type": "hardlink",
+        "sha256": "ef6820f0ff28dc01dea9af64d2c8e5f397f7e2e161c4520b523442d05ff5a4fd",
+        "sha256_in_prefix": "ef6820f0ff28dc01dea9af64d2c8e5f397f7e2e161c4520b523442d05ff5a4fd",
+        "size_in_bytes": 17672
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-oc.dfn",
+        "path_type": "hardlink",
+        "sha256": "fd896ac36a68e82f74cc8b3f705cf2b1f750b6dd877c87a4f5d420a7769ab11b",
+        "sha256_in_prefix": "fd896ac36a68e82f74cc8b3f705cf2b1f750b6dd877c87a4f5d420a7769ab11b",
+        "size_in_bytes": 5784
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-rch.dfn",
+        "path_type": "hardlink",
+        "sha256": "38973a898dafbd259735d59a4d8715840058cb889b31d500cbfda74a61e68e7d",
+        "sha256_in_prefix": "38973a898dafbd259735d59a4d8715840058cb889b31d500cbfda74a61e68e7d",
+        "size_in_bytes": 4320
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-rcha.dfn",
+        "path_type": "hardlink",
+        "sha256": "a1188056c3fe94e625995fa99fe14873e2c3322b49b9a43929a924aadbdf3063",
+        "sha256_in_prefix": "a1188056c3fe94e625995fa99fe14873e2c3322b49b9a43929a924aadbdf3063",
+        "size_in_bytes": 4783
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-riv.dfn",
+        "path_type": "hardlink",
+        "sha256": "579be42220f4365f8e45fb37bdf26fda2f273025f287f3526c5b3c4038ee28e3",
+        "sha256_in_prefix": "579be42220f4365f8e45fb37bdf26fda2f273025f287f3526c5b3c4038ee28e3",
+        "size_in_bytes": 4801
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-sfr.dfn",
+        "path_type": "hardlink",
+        "sha256": "fed5cbdc24b280fff7aa19c56dc132007fdc7699dcae40f5b6bfa73110a814d9",
+        "sha256_in_prefix": "fed5cbdc24b280fff7aa19c56dc132007fdc7699dcae40f5b6bfa73110a814d9",
+        "size_in_bytes": 29452
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-sto.dfn",
+        "path_type": "hardlink",
+        "sha256": "a917fbabd92f7839be1220ab7b1ae3c9e739dcbe773202fb7e7dc46fc6300e24",
+        "sha256_in_prefix": "a917fbabd92f7839be1220ab7b1ae3c9e739dcbe773202fb7e7dc46fc6300e24",
+        "size_in_bytes": 4393
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-uzf.dfn",
+        "path_type": "hardlink",
+        "sha256": "78653fc7875dc91a9cd95510519c0ec36bf95761f8af712df4da59f6a3718ce0",
+        "sha256_in_prefix": "78653fc7875dc91a9cd95510519c0ec36bf95761f8af712df4da59f6a3718ce0",
+        "size_in_bytes": 18004
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-vsc.dfn",
+        "path_type": "hardlink",
+        "sha256": "21e9335a9892980198f1ceb69819943a20d691e4c7cfec44ce594bef873cce3d",
+        "sha256_in_prefix": "21e9335a9892980198f1ceb69819943a20d691e4c7cfec44ce594bef873cce3d",
+        "size_in_bytes": 7093
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwf-wel.dfn",
+        "path_type": "hardlink",
+        "sha256": "a29a5f0c7319f25020522a128985b191c1859b5121d0448812ba14d60b47f330",
+        "sha256_in_prefix": "a29a5f0c7319f25020522a128985b191c1859b5121d0448812ba14d60b47f330",
+        "size_in_bytes": 5865
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-adv.dfn",
+        "path_type": "hardlink",
+        "sha256": "5f04034f516a800c9e4c1c1ee7f6f41aa596da010a02cffc688b07175c9ced0c",
+        "sha256_in_prefix": "5f04034f516a800c9e4c1c1ee7f6f41aa596da010a02cffc688b07175c9ced0c",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-api.dfn",
+        "path_type": "hardlink",
+        "sha256": "57f367d6a62e05a97dc71dd908426059b8e8b3416c9985dc64f7bb23993c9642",
+        "sha256_in_prefix": "57f367d6a62e05a97dc71dd908426059b8e8b3416c9985dc64f7bb23993c9642",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-cnc.dfn",
+        "path_type": "hardlink",
+        "sha256": "ab58dd6d311e6cb3129bc3c3e6dcfa6b81283fb0514520ab4fae6861f70a9d01",
+        "sha256_in_prefix": "ab58dd6d311e6cb3129bc3c3e6dcfa6b81283fb0514520ab4fae6861f70a9d01",
+        "size_in_bytes": 4071
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-dis.dfn",
+        "path_type": "hardlink",
+        "sha256": "85d2b87928c7bf139faba636607c8bbce7fbe06c2124f715d5941a85be99072c",
+        "sha256_in_prefix": "85d2b87928c7bf139faba636607c8bbce7fbe06c2124f715d5941a85be99072c",
+        "size_in_bytes": 3975
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-disu.dfn",
+        "path_type": "hardlink",
+        "sha256": "46a8412050230bb5bc7dcbc9da04e5061019b2fda722f5aedb0d9da91520eb5e",
+        "sha256_in_prefix": "46a8412050230bb5bc7dcbc9da04e5061019b2fda722f5aedb0d9da91520eb5e",
+        "size_in_bytes": 11474
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-disv.dfn",
+        "path_type": "hardlink",
+        "sha256": "ae8fa7deca5a044f27b47d2a55b05c2ad043b81349e7a153268a79e929dc81b7",
+        "sha256_in_prefix": "ae8fa7deca5a044f27b47d2a55b05c2ad043b81349e7a153268a79e929dc81b7",
+        "size_in_bytes": 6161
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-dsp.dfn",
+        "path_type": "hardlink",
+        "sha256": "1d2366a8cc5a9d6d5170ba4c7fc2736cea074ca81fd92d261c9d8a176e4c6cd1",
+        "sha256_in_prefix": "1d2366a8cc5a9d6d5170ba4c7fc2736cea074ca81fd92d261c9d8a176e4c6cd1",
+        "size_in_bytes": 3874
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-fmi.dfn",
+        "path_type": "hardlink",
+        "sha256": "deb337de96b8a0210100f76e459593d808560b27672b464b9349dfe61e2e3651",
+        "sha256_in_prefix": "deb337de96b8a0210100f76e459593d808560b27672b464b9349dfe61e2e3651",
+        "size_in_bytes": 2083
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-ic.dfn",
+        "path_type": "hardlink",
+        "sha256": "0f727c31b9bb394d921cd7cca145c007575987e0de9aecfd75c3908840fd3558",
+        "sha256_in_prefix": "0f727c31b9bb394d921cd7cca145c007575987e0de9aecfd75c3908840fd3558",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-ist.dfn",
+        "path_type": "hardlink",
+        "sha256": "88b20c2bf0cc409a9b031f0942d0d265d7014cb6fc864857afb7b3a1f58cf51f",
+        "sha256_in_prefix": "88b20c2bf0cc409a9b031f0942d0d265d7014cb6fc864857afb7b3a1f58cf51f",
+        "size_in_bytes": 8347
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-lkt.dfn",
+        "path_type": "hardlink",
+        "sha256": "5d98a73270337bce849457eb7a5e59e8c41bed92beed24a0fd7402424e4c9c30",
+        "sha256_in_prefix": "5d98a73270337bce849457eb7a5e59e8c41bed92beed24a0fd7402424e4c9c30",
+        "size_in_bytes": 12395
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-mst.dfn",
+        "path_type": "hardlink",
+        "sha256": "47be5c490c559ed8bde620926b99e87311665537c1a8aef007044c726b199ca0",
+        "sha256_in_prefix": "47be5c490c559ed8bde620926b99e87311665537c1a8aef007044c726b199ca0",
+        "size_in_bytes": 4221
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-mvt.dfn",
+        "path_type": "hardlink",
+        "sha256": "610e459e208d383994f2b8946c6f6e99b3c7599c83f74547cfd10d9fbe23642f",
+        "sha256_in_prefix": "610e459e208d383994f2b8946c6f6e99b3c7599c83f74547cfd10d9fbe23642f",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-mwt.dfn",
+        "path_type": "hardlink",
+        "sha256": "e93a81b853e9032519bffd5f66922b113a06576eadab4fb30f33104d813f6df1",
+        "sha256_in_prefix": "e93a81b853e9032519bffd5f66922b113a06576eadab4fb30f33104d813f6df1",
+        "size_in_bytes": 10784
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-nam.dfn",
+        "path_type": "hardlink",
+        "sha256": "c466be09d7e203d3c1dbabbbf642c331cdeeefbc3d3de5894a366ee0e9b8e441",
+        "sha256_in_prefix": "c466be09d7e203d3c1dbabbbf642c331cdeeefbc3d3de5894a366ee0e9b8e441",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-oc.dfn",
+        "path_type": "hardlink",
+        "sha256": "620505df56484b7e06d1127d181b430232246dc09b6b05781f1203484b0324be",
+        "sha256_in_prefix": "620505df56484b7e06d1127d181b430232246dc09b6b05781f1203484b0324be",
+        "size_in_bytes": 5874
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-sft.dfn",
+        "path_type": "hardlink",
+        "sha256": "34148bdf1549290dedda17835e61b40a7f5883fe2b15de602200f3efc929b395",
+        "sha256_in_prefix": "34148bdf1549290dedda17835e61b40a7f5883fe2b15de602200f3efc929b395",
+        "size_in_bytes": 12380
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-src.dfn",
+        "path_type": "hardlink",
+        "sha256": "9fee7666d046f848d86f2961103b199eeb4b75815abe289423315fe0fbc1d36a",
+        "sha256_in_prefix": "9fee7666d046f848d86f2961103b199eeb4b75815abe289423315fe0fbc1d36a",
+        "size_in_bytes": 4024
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-ssm.dfn",
+        "path_type": "hardlink",
+        "sha256": "9dd3be578c26d24a1f02477663a083cfb58d369306e05f4b701ec1687552d599",
+        "sha256_in_prefix": "9dd3be578c26d24a1f02477663a083cfb58d369306e05f4b701ec1687552d599",
+        "size_in_bytes": 4777
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/gwt-uzt.dfn",
+        "path_type": "hardlink",
+        "sha256": "b3a9f641a347842f4531d632c45256b125ef83a46f28225946ae79dcb7e657f0",
+        "sha256_in_prefix": "b3a9f641a347842f4531d632c45256b125ef83a46f28225946ae79dcb7e657f0",
+        "size_in_bytes": 11569
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/sim-nam.dfn",
+        "path_type": "hardlink",
+        "sha256": "cb096114a9c2081faf2f592ae16d0ef7b8ec3d4a52100a2b2a83fbb2978ebc32",
+        "sha256_in_prefix": "cb096114a9c2081faf2f592ae16d0ef7b8ec3d4a52100a2b2a83fbb2978ebc32",
+        "size_in_bytes": 5381
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/sim-tdis.dfn",
+        "path_type": "hardlink",
+        "sha256": "faa30d19912799e97975a2d9049a0072f12a5c0d1b8cdcb336e05805b589e054",
+        "sha256_in_prefix": "faa30d19912799e97975a2d9049a0072f12a5c0d1b8cdcb336e05805b589e054",
+        "size_in_bytes": 3166
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/sln-ems.dfn",
+        "path_type": "hardlink",
+        "sha256": "a6cf3e6966b9b0f93f21db71f40da84269a2b8b1df45e25286d15ae71ef7c50d",
+        "sha256_in_prefix": "a6cf3e6966b9b0f93f21db71f40da84269a2b8b1df45e25286d15ae71ef7c50d",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/sln-ims.dfn",
+        "path_type": "hardlink",
+        "sha256": "dc7c0f942d500754548dce12aea07988995fcb66ffb49005c466fa0d52566cc0",
+        "sha256_in_prefix": "dc7c0f942d500754548dce12aea07988995fcb66ffb49005c466fa0d52566cc0",
+        "size_in_bytes": 26330
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-ats.dfn",
+        "path_type": "hardlink",
+        "sha256": "e6a916955624252e86ea2c456c4a56d4deea6c4047b2ff1815bd537672c20aad",
+        "sha256_in_prefix": "e6a916955624252e86ea2c456c4a56d4deea6c4047b2ff1815bd537672c20aad",
+        "size_in_bytes": 3829
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-laktab.dfn",
+        "path_type": "hardlink",
+        "sha256": "7f4e4a7ba04f2cd2824398c7f1d7f576d357152c6d17e1bebd2e6f23a02e1170",
+        "sha256_in_prefix": "7f4e4a7ba04f2cd2824398c7f1d7f576d357152c6d17e1bebd2e6f23a02e1170",
+        "size_in_bytes": 1886
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-obs.dfn",
+        "path_type": "hardlink",
+        "sha256": "b9032c446466473ce089f0c550fe1550517e6fc88593754eca1e5045dc1e6e40",
+        "sha256_in_prefix": "b9032c446466473ce089f0c550fe1550517e6fc88593754eca1e5045dc1e6e40",
+        "size_in_bytes": 4180
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-sfrtab.dfn",
+        "path_type": "hardlink",
+        "sha256": "faaf656c9a4ec77cdcd8d42b82266052af0f833d123055b30d8255a2daccee22",
+        "sha256_in_prefix": "faaf656c9a4ec77cdcd8d42b82266052af0f833d123055b30d8255a2daccee22",
+        "size_in_bytes": 2483
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-spc.dfn",
+        "path_type": "hardlink",
+        "sha256": "23c5aba7d873bf9df0c27ece02975f41ffb752765e897800201649bdc2d30cc6",
+        "sha256_in_prefix": "23c5aba7d873bf9df0c27ece02975f41ffb752765e897800201649bdc2d30cc6",
+        "size_in_bytes": 2633
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-spca.dfn",
+        "path_type": "hardlink",
+        "sha256": "8d89e4c4f77842213e47680e2eb4448dd43a6544a19356ab2f18fc133be56d67",
+        "sha256_in_prefix": "8d89e4c4f77842213e47680e2eb4448dd43a6544a19356ab2f18fc133be56d67",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-tas.dfn",
+        "path_type": "hardlink",
+        "sha256": "9da94a02b0ccf335f5f9348d742f8bd79011ec2b32fad1f8b80e7c71cfa6b558",
+        "sha256_in_prefix": "9da94a02b0ccf335f5f9348d742f8bd79011ec2b32fad1f8b80e7c71cfa6b558",
+        "size_in_bytes": 2326
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-ts.dfn",
+        "path_type": "hardlink",
+        "sha256": "99247b541e9268d06e78d01e8f196834186b4346cea10b9d9ae2c1a34d7ef1eb",
+        "sha256_in_prefix": "99247b541e9268d06e78d01e8f196834186b4346cea10b9d9ae2c1a34d7ef1eb",
+        "size_in_bytes": 3212
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-tvk.dfn",
+        "path_type": "hardlink",
+        "sha256": "2626e838a2aa201cd7439b99e0b9868d124a58a5c891958591561823be1472a7",
+        "sha256_in_prefix": "2626e838a2aa201cd7439b99e0b9868d124a58a5c891958591561823be1472a7",
+        "size_in_bytes": 3853
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/dfn/utl-tvs.dfn",
+        "path_type": "hardlink",
+        "sha256": "b67f6df6cf4884171ebdc8fb064f58f60c06af3cd2b5182043d6a7deb7e5e408",
+        "sha256_in_prefix": "b67f6df6cf4884171ebdc8fb064f58f60c06af3cd2b5182043d6a7deb7e5e408",
+        "size_in_bytes": 3588
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mfdata.py",
+        "path_type": "hardlink",
+        "sha256": "dcb4543291b1ca964fe738940f0fd7feaea8634e833c9369da9752442513c805",
+        "sha256_in_prefix": "dcb4543291b1ca964fe738940f0fd7feaea8634e833c9369da9752442513c805",
+        "size_in_bytes": 21861
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mfdataarray.py",
+        "path_type": "hardlink",
+        "sha256": "7eec9dfe5c209ab37d37b6f56dedde3f3cbc750a5fae43b105a0a6938b1c2ab6",
+        "sha256_in_prefix": "7eec9dfe5c209ab37d37b6f56dedde3f3cbc750a5fae43b105a0a6938b1c2ab6",
+        "size_in_bytes": 77635
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mfdatalist.py",
+        "path_type": "hardlink",
+        "sha256": "e0c5c9c8777d1857c37a300680e60fa9146b8397deeb6927ea0595c148727ff0",
+        "sha256_in_prefix": "e0c5c9c8777d1857c37a300680e60fa9146b8397deeb6927ea0595c148727ff0",
+        "size_in_bytes": 88184
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mfdatascalar.py",
+        "path_type": "hardlink",
+        "sha256": "1fa74f2dd38b165592f77ff42b74475e1b02242c27251bdf2e0f47fde7ab15d8",
+        "sha256_in_prefix": "1fa74f2dd38b165592f77ff42b74475e1b02242c27251bdf2e0f47fde7ab15d8",
+        "size_in_bytes": 35971
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mfdatastorage.py",
+        "path_type": "hardlink",
+        "sha256": "7ba56791d0ae680aad4c75eabf3d0fb8b98cd68eb6596d1f1e0c147d33d8c223",
+        "sha256_in_prefix": "7ba56791d0ae680aad4c75eabf3d0fb8b98cd68eb6596d1f1e0c147d33d8c223",
+        "size_in_bytes": 125954
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mfdatautil.py",
+        "path_type": "hardlink",
+        "sha256": "a0e7609dba4e6c0fa677f879177c99fc34cef647d3b30af3fd93f48a624cb00d",
+        "sha256_in_prefix": "a0e7609dba4e6c0fa677f879177c99fc34cef647d3b30af3fd93f48a624cb00d",
+        "size_in_bytes": 30610
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mffileaccess.py",
+        "path_type": "hardlink",
+        "sha256": "f009e16563f102f1b866e35bc3713a52231709a8d24099c8c72b6769d983ec4e",
+        "sha256_in_prefix": "f009e16563f102f1b866e35bc3713a52231709a8d24099c8c72b6769d983ec4e",
+        "size_in_bytes": 102838
+      },
+      {
+        "_path": "site-packages/flopy/mf6/data/mfstructure.py",
+        "path_type": "hardlink",
+        "sha256": "c53d2f4f4323b36d349a7b8bfa38bbcbcb6d5211b3542e3d23e0509e5d3a749a",
+        "sha256_in_prefix": "c53d2f4f4323b36d349a7b8bfa38bbcbcb6d5211b3542e3d23e0509e5d3a749a",
+        "size_in_bytes": 95871
+      },
+      {
+        "_path": "site-packages/flopy/mf6/mfbase.py",
+        "path_type": "hardlink",
+        "sha256": "1e1f8c56ba9cdcb5a4df0d43833b2aa1ccafad477a3050141b5107860f839a24",
+        "sha256_in_prefix": "1e1f8c56ba9cdcb5a4df0d43833b2aa1ccafad477a3050141b5107860f839a24",
+        "size_in_bytes": 24262
+      },
+      {
+        "_path": "site-packages/flopy/mf6/mfmodel.py",
+        "path_type": "hardlink",
+        "sha256": "72b106b97f8f68f742e57f8f1129c4f0ffae949f733d09d7c324ee29414cc82f",
+        "sha256_in_prefix": "72b106b97f8f68f742e57f8f1129c4f0ffae949f733d09d7c324ee29414cc82f",
+        "size_in_bytes": 72058
+      },
+      {
+        "_path": "site-packages/flopy/mf6/mfpackage.py",
+        "path_type": "hardlink",
+        "sha256": "09b66efba1255dd2eb7a68dcf20f830abce58cf8d1fcae80ad4125a85f200496",
+        "sha256_in_prefix": "09b66efba1255dd2eb7a68dcf20f830abce58cf8d1fcae80ad4125a85f200496",
+        "size_in_bytes": 132619
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab0220c630873e3744485da2c9db1fddc7b40011524df7633c864f5c7ea5947b",
+        "sha256_in_prefix": "ab0220c630873e3744485da2c9db1fddc7b40011524df7633c864f5c7ea5947b",
+        "size_in_bytes": 2539
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfems.py",
+        "path_type": "hardlink",
+        "sha256": "5327e9bb74651ec61510e37e34f7365566e842f2653b69bcef530cef37cb2501",
+        "sha256_in_prefix": "5327e9bb74651ec61510e37e34f7365566e842f2653b69bcef530cef37cb2501",
+        "size_in_bytes": 1442
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgnc.py",
+        "path_type": "hardlink",
+        "sha256": "e221939388425c102133d0b75059818dc835c4289ac541ab26441220ca70b655",
+        "sha256_in_prefix": "e221939388425c102133d0b75059818dc835c4289ac541ab26441220ca70b655",
+        "size_in_bytes": 10757
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwf.py",
+        "path_type": "hardlink",
+        "sha256": "96a8abb0816979caa94cfc48afd0fa758e886f197cfcdc40817d1e8cd8e4395e",
+        "sha256_in_prefix": "96a8abb0816979caa94cfc48afd0fa758e886f197cfcdc40817d1e8cd8e4395e",
+        "size_in_bytes": 5356
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfapi.py",
+        "path_type": "hardlink",
+        "sha256": "fbf41ffb1917c7401595da65e26141be0b008c21004d69b7a9ae0dd51b251202",
+        "sha256_in_prefix": "fbf41ffb1917c7401595da65e26141be0b008c21004d69b7a9ae0dd51b251202",
+        "size_in_bytes": 6397
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfbuy.py",
+        "path_type": "hardlink",
+        "sha256": "c6c4a8981a61437f7575c0949b8d3058cbc29c0f88d8f6094c1dcc1b40f18ff7",
+        "sha256_in_prefix": "c6c4a8981a61437f7575c0949b8d3058cbc29c0f88d8f6094c1dcc1b40f18ff7",
+        "size_in_bytes": 9234
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfchd.py",
+        "path_type": "hardlink",
+        "sha256": "8eb13703072333f3665eb1cb689c723d5b4a40c3dbe3981741f10e792bf96a38",
+        "sha256_in_prefix": "8eb13703072333f3665eb1cb689c723d5b4a40c3dbe3981741f10e792bf96a38",
+        "size_in_bytes": 12719
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfcsub.py",
+        "path_type": "hardlink",
+        "sha256": "6a25d5ed9c8a1814fd2e59ce710a59572c3cd7f1f42360010745d3f16645105d",
+        "sha256_in_prefix": "6a25d5ed9c8a1814fd2e59ce710a59572c3cd7f1f42360010745d3f16645105d",
+        "size_in_bytes": 41466
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfdis.py",
+        "path_type": "hardlink",
+        "sha256": "0b864b535956560621198e1d19e82cb2e74c9bf971be1918fba76374988ae19a",
+        "sha256_in_prefix": "0b864b535956560621198e1d19e82cb2e74c9bf971be1918fba76374988ae19a",
+        "size_in_bytes": 8248
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfdisu.py",
+        "path_type": "hardlink",
+        "sha256": "186f8eace42d9b002af3dc4b6ebe88b1b16bb107d6e6091679f037f51dd89024",
+        "sha256_in_prefix": "186f8eace42d9b002af3dc4b6ebe88b1b16bb107d6e6091679f037f51dd89024",
+        "size_in_bytes": 20276
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfdisv.py",
+        "path_type": "hardlink",
+        "sha256": "5849afd59225f65d0eb28eabaa2760b18ee1e2bfc1fa3af93df30068c81cb3b2",
+        "sha256_in_prefix": "5849afd59225f65d0eb28eabaa2760b18ee1e2bfc1fa3af93df30068c81cb3b2",
+        "size_in_bytes": 12084
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfdrn.py",
+        "path_type": "hardlink",
+        "sha256": "cff99c86bf2583315e0c52ad30f54f1e489d04c454cf08becaaa0b5a930255f6",
+        "sha256_in_prefix": "cff99c86bf2583315e0c52ad30f54f1e489d04c454cf08becaaa0b5a930255f6",
+        "size_in_bytes": 15146
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfevt.py",
+        "path_type": "hardlink",
+        "sha256": "21b6f88ac82047f6c3e452842c6d14a5e7f4d1fed1fbb7a8a4520d9f65bbc957",
+        "sha256_in_prefix": "21b6f88ac82047f6c3e452842c6d14a5e7f4d1fed1fbb7a8a4520d9f65bbc957",
+        "size_in_bytes": 17924
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfevta.py",
+        "path_type": "hardlink",
+        "sha256": "00b7f12b8c493af61d8c2dac5f7ab11aaaa80e625b7eed79203301cff24779ae",
+        "sha256_in_prefix": "00b7f12b8c493af61d8c2dac5f7ab11aaaa80e625b7eed79203301cff24779ae",
+        "size_in_bytes": 12928
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfghb.py",
+        "path_type": "hardlink",
+        "sha256": "3887411d7da399dc295cb3416c46514382426fd68fe91281b28ada70baf46160",
+        "sha256_in_prefix": "3887411d7da399dc295cb3416c46514382426fd68fe91281b28ada70baf46160",
+        "size_in_bytes": 14017
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfgnc.py",
+        "path_type": "hardlink",
+        "sha256": "4225cad29ab133f3e296eaaadb3d0c74d2662ac20a0945656361f5f295bc1223",
+        "sha256_in_prefix": "4225cad29ab133f3e296eaaadb3d0c74d2662ac20a0945656361f5f295bc1223",
+        "size_in_bytes": 10785
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfgwf.py",
+        "path_type": "hardlink",
+        "sha256": "730c798bdc930546a8a0bd97dbf3bfd264e39b01ac3ba8084a60eeb8a87fb641",
+        "sha256_in_prefix": "730c798bdc930546a8a0bd97dbf3bfd264e39b01ac3ba8084a60eeb8a87fb641",
+        "size_in_bytes": 19536
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfgwt.py",
+        "path_type": "hardlink",
+        "sha256": "511b07d0cb203669c51dfe584d8e5f0047344ce3ccf4a41fe70efc2ff290f4c7",
+        "sha256_in_prefix": "511b07d0cb203669c51dfe584d8e5f0047344ce3ccf4a41fe70efc2ff290f4c7",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfhfb.py",
+        "path_type": "hardlink",
+        "sha256": "d2883d740b8674c8f97cb91d3713692a035798d54d9d7ed57afe3c99d76962c9",
+        "sha256_in_prefix": "d2883d740b8674c8f97cb91d3713692a035798d54d9d7ed57afe3c99d76962c9",
+        "size_in_bytes": 5959
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfic.py",
+        "path_type": "hardlink",
+        "sha256": "b094424b6856991ce21461cef70698ae796cc70f04a25a143164f7a2d39ab561",
+        "sha256_in_prefix": "b094424b6856991ce21461cef70698ae796cc70f04a25a143164f7a2d39ab561",
+        "size_in_bytes": 2562
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwflak.py",
+        "path_type": "hardlink",
+        "sha256": "a6dbeed433999236d42ee1c536f8ef3930ccda3f6d9ddbd27c5b06205f671c85",
+        "sha256_in_prefix": "a6dbeed433999236d42ee1c536f8ef3930ccda3f6d9ddbd27c5b06205f671c85",
+        "size_in_bytes": 53578
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfmaw.py",
+        "path_type": "hardlink",
+        "sha256": "7237a563081ce60892dde81e0fb8e7f839e9a97934f991c46b8bb7226f3afa75",
+        "sha256_in_prefix": "7237a563081ce60892dde81e0fb8e7f839e9a97934f991c46b8bb7226f3afa75",
+        "size_in_bytes": 46019
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfmvr.py",
+        "path_type": "hardlink",
+        "sha256": "fa660f046b63ae106850d4a22c89d027c3ca50755de3b2ef721c880ec69e7f3b",
+        "sha256_in_prefix": "fa660f046b63ae106850d4a22c89d027c3ca50755de3b2ef721c880ec69e7f3b",
+        "size_in_bytes": 16510
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfnam.py",
+        "path_type": "hardlink",
+        "sha256": "3416dfad968ac9d34985f42174d9d998e998cd2e1123ed5ad53c3dac73af1c22",
+        "sha256_in_prefix": "3416dfad968ac9d34985f42174d9d998e998cd2e1123ed5ad53c3dac73af1c22",
+        "size_in_bytes": 6880
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfnpf.py",
+        "path_type": "hardlink",
+        "sha256": "4b141d42e985267c52f6d0847caa97f9b044cf0b32a78d451aae2504ea3ba975",
+        "sha256_in_prefix": "4b141d42e985267c52f6d0847caa97f9b044cf0b32a78d451aae2504ea3ba975",
+        "size_in_bytes": 26834
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfoc.py",
+        "path_type": "hardlink",
+        "sha256": "5053096079912cd87feca168758bd353dc6b61715517045ebb8c1b5b78143800",
+        "sha256_in_prefix": "5053096079912cd87feca168758bd353dc6b61715517045ebb8c1b5b78143800",
+        "size_in_bytes": 13428
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfrch.py",
+        "path_type": "hardlink",
+        "sha256": "3b8f6a1c511b53ea6aadc749b6c9f0d3a1c01f99f1fbb35f48aa14ccaa991bac",
+        "sha256_in_prefix": "3b8f6a1c511b53ea6aadc749b6c9f0d3a1c01f99f1fbb35f48aa14ccaa991bac",
+        "size_in_bytes": 13331
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfrcha.py",
+        "path_type": "hardlink",
+        "sha256": "bd81bf3e1ab15d85c0c1be44d2cc2cb2bada9289c76c99c57df5f68070953e3a",
+        "sha256_in_prefix": "bd81bf3e1ab15d85c0c1be44d2cc2cb2bada9289c76c99c57df5f68070953e3a",
+        "size_in_bytes": 12292
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfriv.py",
+        "path_type": "hardlink",
+        "sha256": "2a747614372d1381510555361f909b1101a48b50aa92b40c712b4e0783b6fbc9",
+        "sha256_in_prefix": "2a747614372d1381510555361f909b1101a48b50aa92b40c712b4e0783b6fbc9",
+        "size_in_bytes": 14345
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfsfr.py",
+        "path_type": "hardlink",
+        "sha256": "a0c8ab02bea6949852fe84b7cbe17ccf2226274deb4dec6421e41d2e395934d3",
+        "sha256_in_prefix": "a0c8ab02bea6949852fe84b7cbe17ccf2226274deb4dec6421e41d2e395934d3",
+        "size_in_bytes": 54130
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfsto.py",
+        "path_type": "hardlink",
+        "sha256": "a91c87059225f0b29ed0d0da93ab45b8c58eb99ffaef78b17f692b1863b35702",
+        "sha256_in_prefix": "a91c87059225f0b29ed0d0da93ab45b8c58eb99ffaef78b17f692b1863b35702",
+        "size_in_bytes": 8894
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfuzf.py",
+        "path_type": "hardlink",
+        "sha256": "03bb03d1fbe92d34754d611f40ce82cdd99a7de6166024e1f32b4c15802e2309",
+        "sha256_in_prefix": "03bb03d1fbe92d34754d611f40ce82cdd99a7de6166024e1f32b4c15802e2309",
+        "size_in_bytes": 35383
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfvsc.py",
+        "path_type": "hardlink",
+        "sha256": "b404f5754dc23fd6552035642b60eb2b8b08e6e63d0884ba683573a92596365c",
+        "sha256_in_prefix": "b404f5754dc23fd6552035642b60eb2b8b08e6e63d0884ba683573a92596365c",
+        "size_in_bytes": 12057
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwfwel.py",
+        "path_type": "hardlink",
+        "sha256": "ceb34b3463e524b3f2be1545be2b91a2fdd757f5696b13bf2d53535db601e8a3",
+        "sha256_in_prefix": "ceb34b3463e524b3f2be1545be2b91a2fdd757f5696b13bf2d53535db601e8a3",
+        "size_in_bytes": 15925
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwt.py",
+        "path_type": "hardlink",
+        "sha256": "0dbd1974a273157241a5bac7dcf7099a7bf59c187dd2fd88324d122fecbc084a",
+        "sha256_in_prefix": "0dbd1974a273157241a5bac7dcf7099a7bf59c187dd2fd88324d122fecbc084a",
+        "size_in_bytes": 4943
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtadv.py",
+        "path_type": "hardlink",
+        "sha256": "cdfe80a01f32ed8fb34b4a4b60c373073b9f2d06c35d0f4300519d1d39013a40",
+        "sha256_in_prefix": "cdfe80a01f32ed8fb34b4a4b60c373073b9f2d06c35d0f4300519d1d39013a40",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtapi.py",
+        "path_type": "hardlink",
+        "sha256": "3903a9c77b9f201c6bc8e757fb7c9a07c2e30192b160d8ac35b63bb491f6027d",
+        "sha256_in_prefix": "3903a9c77b9f201c6bc8e757fb7c9a07c2e30192b160d8ac35b63bb491f6027d",
+        "size_in_bytes": 6397
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtcnc.py",
+        "path_type": "hardlink",
+        "sha256": "f383ac45a3b33e0e9f3f5b520c192cdf786c936191b8bf6a7249686d78fb2dca",
+        "sha256_in_prefix": "f383ac45a3b33e0e9f3f5b520c192cdf786c936191b8bf6a7249686d78fb2dca",
+        "size_in_bytes": 12765
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtdis.py",
+        "path_type": "hardlink",
+        "sha256": "3131797980ee69f5b2753a76c3f2db7c2700dd2d4a42a9af79ccc7752d5c4b4c",
+        "sha256_in_prefix": "3131797980ee69f5b2753a76c3f2db7c2700dd2d4a42a9af79ccc7752d5c4b4c",
+        "size_in_bytes": 8237
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtdisu.py",
+        "path_type": "hardlink",
+        "sha256": "09eacc51a6c79eda8335d6d8674bdbf5539d9a1796c601ed431fcda464d2fc32",
+        "sha256_in_prefix": "09eacc51a6c79eda8335d6d8674bdbf5539d9a1796c601ed431fcda464d2fc32",
+        "size_in_bytes": 20276
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtdisv.py",
+        "path_type": "hardlink",
+        "sha256": "f2a64541418f20881915f9352b59ec0a2d1d4bd6d6deb44a6355f209b1f3af0c",
+        "sha256_in_prefix": "f2a64541418f20881915f9352b59ec0a2d1d4bd6d6deb44a6355f209b1f3af0c",
+        "size_in_bytes": 12073
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtdsp.py",
+        "path_type": "hardlink",
+        "sha256": "71be7f45d0ad4014aba848dd703cfbe60edcf65eeae84b306245fd23fd9c9f00",
+        "sha256_in_prefix": "71be7f45d0ad4014aba848dd703cfbe60edcf65eeae84b306245fd23fd9c9f00",
+        "size_in_bytes": 7341
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtfmi.py",
+        "path_type": "hardlink",
+        "sha256": "07d0cf2060a3e23725ec53de3573811f011fb3ccd7d83ef9f6cf532348d6467f",
+        "sha256_in_prefix": "07d0cf2060a3e23725ec53de3573811f011fb3ccd7d83ef9f6cf532348d6467f",
+        "size_in_bytes": 4700
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtgwt.py",
+        "path_type": "hardlink",
+        "sha256": "08439e7d5eed27082c8f0faa9e849d2b32f31c9b62c8a6b4e89c5c72073db76f",
+        "sha256_in_prefix": "08439e7d5eed27082c8f0faa9e849d2b32f31c9b62c8a6b4e89c5c72073db76f",
+        "size_in_bytes": 18264
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtic.py",
+        "path_type": "hardlink",
+        "sha256": "724de433f992a32f4eed706475d0faf011fb05f11e53f15f6b59878034f55c7b",
+        "sha256_in_prefix": "724de433f992a32f4eed706475d0faf011fb05f11e53f15f6b59878034f55c7b",
+        "size_in_bytes": 2102
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtist.py",
+        "path_type": "hardlink",
+        "sha256": "b632b75c271d8c42299448008dbe6621692f38cb4c8dbbb2309c0d5e2bb49a03",
+        "sha256_in_prefix": "b632b75c271d8c42299448008dbe6621692f38cb4c8dbbb2309c0d5e2bb49a03",
+        "size_in_bytes": 16252
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtlkt.py",
+        "path_type": "hardlink",
+        "sha256": "03f62af021207185557a0374f2fe67f226d7c8867e105103c55f1861703a0aac",
+        "sha256_in_prefix": "03f62af021207185557a0374f2fe67f226d7c8867e105103c55f1861703a0aac",
+        "size_in_bytes": 26533
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtmst.py",
+        "path_type": "hardlink",
+        "sha256": "1625c1955b978bd8b7d21ac032c79e38e06f7afdd81de0d1c700f3b8892a9c29",
+        "sha256_in_prefix": "1625c1955b978bd8b7d21ac032c79e38e06f7afdd81de0d1c700f3b8892a9c29",
+        "size_in_bytes": 8731
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtmvt.py",
+        "path_type": "hardlink",
+        "sha256": "26fa14661545a9c27f8d1071e8293508eda5bc448b2d8e05762de75346031c87",
+        "sha256_in_prefix": "26fa14661545a9c27f8d1071e8293508eda5bc448b2d8e05762de75346031c87",
+        "size_in_bytes": 7869
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtmwt.py",
+        "path_type": "hardlink",
+        "sha256": "c17703401210a6501f94ebaa75c7a6355c8f87ce4283204f95f076a3448d55c0",
+        "sha256_in_prefix": "c17703401210a6501f94ebaa75c7a6355c8f87ce4283204f95f076a3448d55c0",
+        "size_in_bytes": 24002
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtnam.py",
+        "path_type": "hardlink",
+        "sha256": "d9a587bb4a9933db24c467c5e25f602262f3556bfc03e75de6c91f88e6df83e6",
+        "sha256_in_prefix": "d9a587bb4a9933db24c467c5e25f602262f3556bfc03e75de6c91f88e6df83e6",
+        "size_in_bytes": 5889
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtoc.py",
+        "path_type": "hardlink",
+        "sha256": "9a47681cafc7ec0df7522412e6ff68f8c3273de15ba4ce12a5f9d17acc41435f",
+        "sha256_in_prefix": "9a47681cafc7ec0df7522412e6ff68f8c3273de15ba4ce12a5f9d17acc41435f",
+        "size_in_bytes": 13663
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtsft.py",
+        "path_type": "hardlink",
+        "sha256": "354aebe26d6f02fe93a13fb5a3766fab2054da54e284fd48ff70cea4e48c520b",
+        "sha256_in_prefix": "354aebe26d6f02fe93a13fb5a3766fab2054da54e284fd48ff70cea4e48c520b",
+        "size_in_bytes": 26462
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtsrc.py",
+        "path_type": "hardlink",
+        "sha256": "f0941c252d22e0f53f03b58fc43010af6a5df8c66d23718c6c930cd90fb706fb",
+        "sha256_in_prefix": "f0941c252d22e0f53f03b58fc43010af6a5df8c66d23718c6c930cd90fb706fb",
+        "size_in_bytes": 12812
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtssm.py",
+        "path_type": "hardlink",
+        "sha256": "4fd62551ec8b39560a644316182c2d4ecdf1e784d52569408cefc878ce6650ee",
+        "sha256_in_prefix": "4fd62551ec8b39560a644316182c2d4ecdf1e784d52569408cefc878ce6650ee",
+        "size_in_bytes": 8154
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfgwtuzt.py",
+        "path_type": "hardlink",
+        "sha256": "81edfb40bc49370b46d46824a9c3d7ffa6d722e7f08c9c4bf300771c9a931803",
+        "sha256_in_prefix": "81edfb40bc49370b46d46824a9c3d7ffa6d722e7f08c9c4bf300771c9a931803",
+        "size_in_bytes": 25059
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfims.py",
+        "path_type": "hardlink",
+        "sha256": "c92d73a98b206ac5c83f96d27aaef2bd740ebadb19e87a809ee74cfe52f0b4e4",
+        "sha256_in_prefix": "c92d73a98b206ac5c83f96d27aaef2bd740ebadb19e87a809ee74cfe52f0b4e4",
+        "size_in_bytes": 38565
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfmvr.py",
+        "path_type": "hardlink",
+        "sha256": "3423c785763f050b3643fbb5232e337d3d5eaf4926e263de5e48412ec88145b0",
+        "sha256_in_prefix": "3423c785763f050b3643fbb5232e337d3d5eaf4926e263de5e48412ec88145b0",
+        "size_in_bytes": 16483
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfmvt.py",
+        "path_type": "hardlink",
+        "sha256": "b16991fd6bb6678ed09b050764e0e8f6c3953f30f77435a3435cddc66d1e4c48",
+        "sha256_in_prefix": "b16991fd6bb6678ed09b050764e0e8f6c3953f30f77435a3435cddc66d1e4c48",
+        "size_in_bytes": 7803
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfnam.py",
+        "path_type": "hardlink",
+        "sha256": "e4563e3f254f303cb9d156f208f99d3aa0e6d21bc55112ce5745f4dfb2606ff2",
+        "sha256_in_prefix": "e4563e3f254f303cb9d156f208f99d3aa0e6d21bc55112ce5745f4dfb2606ff2",
+        "size_in_bytes": 9793
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfsimulation.py",
+        "path_type": "hardlink",
+        "sha256": "98938cf2136e4b1ed761f051a3f9a0ceca839493003b77fd2cbfd26c317ba4f0",
+        "sha256_in_prefix": "98938cf2136e4b1ed761f051a3f9a0ceca839493003b77fd2cbfd26c317ba4f0",
+        "size_in_bytes": 89183
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mftdis.py",
+        "path_type": "hardlink",
+        "sha256": "d633bc24e170ebeead40510d2415340d7df9be53a61ccdf28753f929ae3cbe31",
+        "sha256_in_prefix": "d633bc24e170ebeead40510d2415340d7df9be53a61ccdf28753f929ae3cbe31",
+        "size_in_bytes": 6607
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutlats.py",
+        "path_type": "hardlink",
+        "sha256": "964c8bd8b0c45c320b1a24ad20c6cedaed0c06cd5347a0639a1d30efbfc7f8b2",
+        "sha256_in_prefix": "964c8bd8b0c45c320b1a24ad20c6cedaed0c06cd5347a0639a1d30efbfc7f8b2",
+        "size_in_bytes": 7984
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutllaktab.py",
+        "path_type": "hardlink",
+        "sha256": "f929b280b30c5b0ff5027d0112682689376be03fc1768612820e18af436ae1f9",
+        "sha256_in_prefix": "f929b280b30c5b0ff5027d0112682689376be03fc1768612820e18af436ae1f9",
+        "size_in_bytes": 4390
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutlobs.py",
+        "path_type": "hardlink",
+        "sha256": "f7aededd8ad0f16e391c0cec3ff0ba447e42a22521005ba03b8569d154818109",
+        "sha256_in_prefix": "f7aededd8ad0f16e391c0cec3ff0ba447e42a22521005ba03b8569d154818109",
+        "size_in_bytes": 8385
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutlsfrtab.py",
+        "path_type": "hardlink",
+        "sha256": "819d17306ab7280433ab3c97fbc5753e1e0dfe1a39bfd1ee1749555397841c6e",
+        "sha256_in_prefix": "819d17306ab7280433ab3c97fbc5753e1e0dfe1a39bfd1ee1749555397841c6e",
+        "size_in_bytes": 5001
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutlspc.py",
+        "path_type": "hardlink",
+        "sha256": "3e383671bf5c2333f47790f92d01b3398d6d5981a1d80d3d05483789cf68584d",
+        "sha256_in_prefix": "3e383671bf5c2333f47790f92d01b3398d6d5981a1d80d3d05483789cf68584d",
+        "size_in_bytes": 6723
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutlspca.py",
+        "path_type": "hardlink",
+        "sha256": "ba8fea2f20e37d8a68a5aafc45e50118296f0e45f0ee019fdd23aae067dcc74f",
+        "sha256_in_prefix": "ba8fea2f20e37d8a68a5aafc45e50118296f0e45f0ee019fdd23aae067dcc74f",
+        "size_in_bytes": 5330
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutltas.py",
+        "path_type": "hardlink",
+        "sha256": "fb98dc0014fbc4d58c505bbdcdd5d6e0f72fdd24ac08da1f4a57a30713e7a8da",
+        "sha256_in_prefix": "fb98dc0014fbc4d58c505bbdcdd5d6e0f72fdd24ac08da1f4a57a30713e7a8da",
+        "size_in_bytes": 7740
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutlts.py",
+        "path_type": "hardlink",
+        "sha256": "fa2087d0915d262b902c983684352b1993e43dbe02a6a27e3d2f89325fa2f301",
+        "sha256_in_prefix": "fa2087d0915d262b902c983684352b1993e43dbe02a6a27e3d2f89325fa2f301",
+        "size_in_bytes": 10701
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutltvk.py",
+        "path_type": "hardlink",
+        "sha256": "fd867a269523de11adaa1e41aa0444d2e10f88cad486166027c41690f7629f9b",
+        "sha256_in_prefix": "fd867a269523de11adaa1e41aa0444d2e10f88cad486166027c41690f7629f9b",
+        "size_in_bytes": 10014
+      },
+      {
+        "_path": "site-packages/flopy/mf6/modflow/mfutltvs.py",
+        "path_type": "hardlink",
+        "sha256": "0e13bd4b0ba144e090fb0170e5f374dcce90856048e5cb74de4b40fc5f866487",
+        "sha256_in_prefix": "0e13bd4b0ba144e090fb0170e5f374dcce90856048e5cb74de4b40fc5f866487",
+        "size_in_bytes": 10232
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a5c41305521f5237c306eae9622a08875111352dbd7b57bba3d3fab84bf7a355",
+        "sha256_in_prefix": "a5c41305521f5237c306eae9622a08875111352dbd7b57bba3d3fab84bf7a355",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/binaryfile_utils.py",
+        "path_type": "hardlink",
+        "sha256": "04d9a5d5e96951d2a68214483c582021e7f045a15905fb6b65745133e0763561",
+        "sha256_in_prefix": "04d9a5d5e96951d2a68214483c582021e7f045a15905fb6b65745133e0763561",
+        "size_in_bytes": 13367
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/binarygrid_util.py",
+        "path_type": "hardlink",
+        "sha256": "bd6fc69c1c68191668d3ce1ae682bbdedf87c6ad5086d7f78b63edaba248c65a",
+        "sha256_in_prefix": "bd6fc69c1c68191668d3ce1ae682bbdedf87c6ad5086d7f78b63edaba248c65a",
+        "size_in_bytes": 19277
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/createpackages.py",
+        "path_type": "hardlink",
+        "sha256": "f89ef04e14d948608d6252cb6a0b4876fda524d0d0622884b11be18e370642dc",
+        "sha256_in_prefix": "f89ef04e14d948608d6252cb6a0b4876fda524d0d0622884b11be18e370642dc",
+        "size_in_bytes": 35525
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/generate_classes.py",
+        "path_type": "hardlink",
+        "sha256": "585e48a887f12f6c87919d37b3e497b481035b0cc6f84021f5486a60adff3505",
+        "sha256_in_prefix": "585e48a887f12f6c87919d37b3e497b481035b0cc6f84021f5486a60adff3505",
+        "size_in_bytes": 5559
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/lakpak_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0fceed61b582cacd13671552f5df7c32106262cc7b80db9f31258c23ffcd57f5",
+        "sha256_in_prefix": "0fceed61b582cacd13671552f5df7c32106262cc7b80db9f31258c23ffcd57f5",
+        "size_in_bytes": 9891
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/mfenums.py",
+        "path_type": "hardlink",
+        "sha256": "c22e6c000b2c591bb0230493571bd57fb36a9352c1b7e6a6f14ea9f99f7f7e7d",
+        "sha256_in_prefix": "c22e6c000b2c591bb0230493571bd57fb36a9352c1b7e6a6f14ea9f99f7f7e7d",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/mfobservation.py",
+        "path_type": "hardlink",
+        "sha256": "4840ee24c1f9ead351fa16bfbd0e1eba06b2459752e068cc41e7854fdf331f3e",
+        "sha256_in_prefix": "4840ee24c1f9ead351fa16bfbd0e1eba06b2459752e068cc41e7854fdf331f3e",
+        "size_in_bytes": 17521
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/model_splitter.py",
+        "path_type": "hardlink",
+        "sha256": "03af6e8efe22f6ddcee89884178a6cab7a4d160376b22d221782ac6ec84634f3",
+        "sha256_in_prefix": "03af6e8efe22f6ddcee89884178a6cab7a4d160376b22d221782ac6ec84634f3",
+        "size_in_bytes": 116265
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/output_util.py",
+        "path_type": "hardlink",
+        "sha256": "39b865baf2f0a1f31e5c3bb3fb554522fc6b1f1307379535ccc1cbbb05f23ddc",
+        "sha256_in_prefix": "39b865baf2f0a1f31e5c3bb3fb554522fc6b1f1307379535ccc1cbbb05f23ddc",
+        "size_in_bytes": 13522
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/postprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "6a2b0cc68036eeebdb74cbbb2dee725037b6033b050e8708eee40d6c166146a7",
+        "sha256_in_prefix": "6a2b0cc68036eeebdb74cbbb2dee725037b6033b050e8708eee40d6c166146a7",
+        "size_in_bytes": 6204
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/reference.py",
+        "path_type": "hardlink",
+        "sha256": "4a80e84170997d921018d3ad9e15c370592d329e2e9b217abb916c76b0de078a",
+        "sha256_in_prefix": "4a80e84170997d921018d3ad9e15c370592d329e2e9b217abb916c76b0de078a",
+        "size_in_bytes": 27015
+      },
+      {
+        "_path": "site-packages/flopy/mf6/utils/testutils.py",
+        "path_type": "hardlink",
+        "sha256": "1d5d11c7c6b09ab2a2e1c479a1a9d8eedc1dfe0e73c79759e6c9efd40eddbe79",
+        "sha256_in_prefix": "1d5d11c7c6b09ab2a2e1c479a1a9d8eedc1dfe0e73c79759e6c9efd40eddbe79",
+        "size_in_bytes": 7052
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2bb21b4733347e7f7505f0177dba089aad75c07b9d4de20540badc253e4b1de1",
+        "sha256_in_prefix": "2bb21b4733347e7f7505f0177dba089aad75c07b9d4de20540badc253e4b1de1",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/cln_dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "e3d3783946901cd3ab7e94cd60122b62d358aced7078feeb470a8ff5cd885da4",
+        "sha256_in_prefix": "e3d3783946901cd3ab7e94cd60122b62d358aced7078feeb470a8ff5cd885da4",
+        "size_in_bytes": 5736
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusg.py",
+        "path_type": "hardlink",
+        "sha256": "bf9b7b29dd1873febfb88abb6493db5b71bdc7e6c7259d968904d084d142cb52",
+        "sha256_in_prefix": "bf9b7b29dd1873febfb88abb6493db5b71bdc7e6c7259d968904d084d142cb52",
+        "size_in_bytes": 19531
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusgbcf.py",
+        "path_type": "hardlink",
+        "sha256": "81408597f8a3f24fd5ff6305d399ec661601bf25f8483eb0fdc559391778a358",
+        "sha256_in_prefix": "81408597f8a3f24fd5ff6305d399ec661601bf25f8483eb0fdc559391778a358",
+        "size_in_bytes": 23181
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusgcln.py",
+        "path_type": "hardlink",
+        "sha256": "b7e57ea739ad391d034d3cf2db462b10cc16ffd9669e4725febad5f869cb400d",
+        "sha256_in_prefix": "b7e57ea739ad391d034d3cf2db462b10cc16ffd9669e4725febad5f869cb400d",
+        "size_in_bytes": 29958
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusgdisu.py",
+        "path_type": "hardlink",
+        "sha256": "ad094557010488a851a2ef3e7b7fa9be4cad17c5189ede81e3e65c670186790f",
+        "sha256_in_prefix": "ad094557010488a851a2ef3e7b7fa9be4cad17c5189ede81e3e65c670186790f",
+        "size_in_bytes": 29663
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusggnc.py",
+        "path_type": "hardlink",
+        "sha256": "ed86e6e351dce6d414320beede569915d26d331b0114aff6ed6bdf04907e8e9c",
+        "sha256_in_prefix": "ed86e6e351dce6d414320beede569915d26d331b0114aff6ed6bdf04907e8e9c",
+        "size_in_bytes": 10396
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusglpf.py",
+        "path_type": "hardlink",
+        "sha256": "558ee6a0a26e82578ec463a1fc2042ab2b99ae77f8ae7b331374bf9c95ec1864",
+        "sha256_in_prefix": "558ee6a0a26e82578ec463a1fc2042ab2b99ae77f8ae7b331374bf9c95ec1864",
+        "size_in_bytes": 30622
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusgsms.py",
+        "path_type": "hardlink",
+        "sha256": "52ec90cd95a08b185d2616e2edb894a220dca63528af229c240a83475e15c5de",
+        "sha256_in_prefix": "52ec90cd95a08b185d2616e2edb894a220dca63528af229c240a83475e15c5de",
+        "size_in_bytes": 23812
+      },
+      {
+        "_path": "site-packages/flopy/mfusg/mfusgwel.py",
+        "path_type": "hardlink",
+        "sha256": "1deb50fd6237eff554724059d99a4c4c7b4324f3f5e96490deea72d873165637",
+        "sha256_in_prefix": "1deb50fd6237eff554724059d99a4c4c7b4324f3f5e96490deea72d873165637",
+        "size_in_bytes": 10176
+      },
+      {
+        "_path": "site-packages/flopy/modflow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8e0492d3f0187194d2379aae91fdc019f31cff8c23ac603b39ebeecf88f2fede",
+        "sha256_in_prefix": "8e0492d3f0187194d2379aae91fdc019f31cff8c23ac603b39ebeecf88f2fede",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mf.py",
+        "path_type": "hardlink",
+        "sha256": "7b724af16896ca6ef474784c3eee2b4591ae4ce93cd4c8a7fd29c4abd7fe98c8",
+        "sha256_in_prefix": "7b724af16896ca6ef474784c3eee2b4591ae4ce93cd4c8a7fd29c4abd7fe98c8",
+        "size_in_bytes": 32292
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfaddoutsidefile.py",
+        "path_type": "hardlink",
+        "sha256": "8632561b6338c942615234b365750cf08e98cd99e4be9aaca2425a9014266b40",
+        "sha256_in_prefix": "8632561b6338c942615234b365750cf08e98cd99e4be9aaca2425a9014266b40",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfag.py",
+        "path_type": "hardlink",
+        "sha256": "668e2b676b515c711b78e175d41dcbd24473442b51d006678aec63fb2d94ecf2",
+        "sha256_in_prefix": "668e2b676b515c711b78e175d41dcbd24473442b51d006678aec63fb2d94ecf2",
+        "size_in_bytes": 32852
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfbas.py",
+        "path_type": "hardlink",
+        "sha256": "03a8be649f90ef248a2f7e01d04de9a50344534e5dbea295448fe114d54ace9d",
+        "sha256_in_prefix": "03a8be649f90ef248a2f7e01d04de9a50344534e5dbea295448fe114d54ace9d",
+        "size_in_bytes": 11781
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfbcf.py",
+        "path_type": "hardlink",
+        "sha256": "abab932edff2fc2ca03bb7ca5e76086396369fb8fd3a23e03873d0235fde2f14",
+        "sha256_in_prefix": "abab932edff2fc2ca03bb7ca5e76086396369fb8fd3a23e03873d0235fde2f14",
+        "size_in_bytes": 16824
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfbct.py",
+        "path_type": "hardlink",
+        "sha256": "2e4d30c7d01f210692fb70cc078c8ad9dbc0322ec5aaeb8cd49e78379c6faead",
+        "sha256_in_prefix": "2e4d30c7d01f210692fb70cc078c8ad9dbc0322ec5aaeb8cd49e78379c6faead",
+        "size_in_bytes": 4591
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfchd.py",
+        "path_type": "hardlink",
+        "sha256": "e3b10f6deb6c17b757638087bc5442a776ffe44956108ea9b3d08b1625135201",
+        "sha256_in_prefix": "e3b10f6deb6c17b757638087bc5442a776ffe44956108ea9b3d08b1625135201",
+        "size_in_bytes": 8095
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfde4.py",
+        "path_type": "hardlink",
+        "sha256": "b31531dacc525ed241bb325ad06b6531f3ae28ecd28741375abfb19dfd95caa7",
+        "sha256_in_prefix": "b31531dacc525ed241bb325ad06b6531f3ae28ecd28741375abfb19dfd95caa7",
+        "size_in_bytes": 10162
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfdis.py",
+        "path_type": "hardlink",
+        "sha256": "61f85170c1eedf1cdb3ea1bfc1428d40eabfccd25c862541fe14cdce074a94b4",
+        "sha256_in_prefix": "61f85170c1eedf1cdb3ea1bfc1428d40eabfccd25c862541fe14cdce074a94b4",
+        "size_in_bytes": 30056
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfdrn.py",
+        "path_type": "hardlink",
+        "sha256": "021e6a1cc1c314ef95b9f1c1777db17d92d1932f83ec3a70f155a821af946ec0",
+        "sha256_in_prefix": "021e6a1cc1c314ef95b9f1c1777db17d92d1932f83ec3a70f155a821af946ec0",
+        "size_in_bytes": 10183
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfdrt.py",
+        "path_type": "hardlink",
+        "sha256": "0d2c684badc038007ec66a2b3a33e382c700286d88bac5da27e06f2b299043d1",
+        "sha256_in_prefix": "0d2c684badc038007ec66a2b3a33e382c700286d88bac5da27e06f2b299043d1",
+        "size_in_bytes": 9980
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfevt.py",
+        "path_type": "hardlink",
+        "sha256": "03fc3eb254b2f0d31c4309edd90667a3a3d97a1cfac5af1ab1c452f9ed1ae453",
+        "sha256_in_prefix": "03fc3eb254b2f0d31c4309edd90667a3a3d97a1cfac5af1ab1c452f9ed1ae453",
+        "size_in_bytes": 14422
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mffhb.py",
+        "path_type": "hardlink",
+        "sha256": "0f32214a2e7a8af1536eeae3141a7c8c6a463e48a9aa9a2cc4bd140100ef03d8",
+        "sha256_in_prefix": "0f32214a2e7a8af1536eeae3141a7c8c6a463e48a9aa9a2cc4bd140100ef03d8",
+        "size_in_bytes": 24530
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfflwob.py",
+        "path_type": "hardlink",
+        "sha256": "ae17da592f3b9c42cf40a12c809d06b093437ac3d679ca341df989e9ed5972d4",
+        "sha256_in_prefix": "ae17da592f3b9c42cf40a12c809d06b093437ac3d679ca341df989e9ed5972d4",
+        "size_in_bytes": 20089
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfgage.py",
+        "path_type": "hardlink",
+        "sha256": "4f76a5253d4ce9e1c15276aac96c492e8016fb70e1be397f5995a586428f5b8a",
+        "sha256_in_prefix": "4f76a5253d4ce9e1c15276aac96c492e8016fb70e1be397f5995a586428f5b8a",
+        "size_in_bytes": 12248
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfghb.py",
+        "path_type": "hardlink",
+        "sha256": "d9ad6b7dbfe586b781e89246fae47f5ab5b9934c3f68c0460b2846a12d76530c",
+        "sha256_in_prefix": "d9ad6b7dbfe586b781e89246fae47f5ab5b9934c3f68c0460b2846a12d76530c",
+        "size_in_bytes": 9352
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfgmg.py",
+        "path_type": "hardlink",
+        "sha256": "79aa7233d12b9959681be71d03c8e5dc27f1a88ba6771f15394321a34cea1438",
+        "sha256_in_prefix": "79aa7233d12b9959681be71d03c8e5dc27f1a88ba6771f15394321a34cea1438",
+        "size_in_bytes": 14728
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfhfb.py",
+        "path_type": "hardlink",
+        "sha256": "35e5a5d6fa4f18dfc2aaac12c54959542bc91e6fd286fa821069098c57dc0271",
+        "sha256_in_prefix": "35e5a5d6fa4f18dfc2aaac12c54959542bc91e6fd286fa821069098c57dc0271",
+        "size_in_bytes": 13953
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfhob.py",
+        "path_type": "hardlink",
+        "sha256": "f60274c713f73644bac74ca012c2d3c0e785e2e37bd4a6b87fcf4677025713dd",
+        "sha256_in_prefix": "f60274c713f73644bac74ca012c2d3c0e785e2e37bd4a6b87fcf4677025713dd",
+        "size_in_bytes": 23591
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfhyd.py",
+        "path_type": "hardlink",
+        "sha256": "5ed92aa5f0871e3acb3c42790f424e95215c2745572c9ec9953ff3e9490084e4",
+        "sha256_in_prefix": "5ed92aa5f0871e3acb3c42790f424e95215c2745572c9ec9953ff3e9490084e4",
+        "size_in_bytes": 11593
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mflak.py",
+        "path_type": "hardlink",
+        "sha256": "5ba5ecd48733e2bf9bc3eb96fc9be5c5a40cb58cdf2ef915a1c9888056c47893",
+        "sha256_in_prefix": "5ba5ecd48733e2bf9bc3eb96fc9be5c5a40cb58cdf2ef915a1c9888056c47893",
+        "size_in_bytes": 35838
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mflmt.py",
+        "path_type": "hardlink",
+        "sha256": "38763e3d34b6743eab2cd5d3182591a6ed4d3921d38b04cd6a5beb41cd1d83bf",
+        "sha256_in_prefix": "38763e3d34b6743eab2cd5d3182591a6ed4d3921d38b04cd6a5beb41cd1d83bf",
+        "size_in_bytes": 7907
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mflpf.py",
+        "path_type": "hardlink",
+        "sha256": "8570bbcfc87219a5184863bd11bae20bba9333182707a6ee962faf4ed0e7c86b",
+        "sha256_in_prefix": "8570bbcfc87219a5184863bd11bae20bba9333182707a6ee962faf4ed0e7c86b",
+        "size_in_bytes": 25967
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfmlt.py",
+        "path_type": "hardlink",
+        "sha256": "3fe0ef3142be84574cb41a43807174a9f842b0caab165d2c36cc2f98cdeb4aca",
+        "sha256_in_prefix": "3fe0ef3142be84574cb41a43807174a9f842b0caab165d2c36cc2f98cdeb4aca",
+        "size_in_bytes": 7165
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfmnw1.py",
+        "path_type": "hardlink",
+        "sha256": "b36ecf862498668e11de655270a2e3abf9df5c699e4398f3f3833f64d002bd5c",
+        "sha256_in_prefix": "b36ecf862498668e11de655270a2e3abf9df5c699e4398f3f3833f64d002bd5c",
+        "size_in_bytes": 16925
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfmnw2.py",
+        "path_type": "hardlink",
+        "sha256": "02a2c8f2687b971e558b0a1bdd2be45d8f664e21e4cba6d754efa5ef8912f46b",
+        "sha256_in_prefix": "02a2c8f2687b971e558b0a1bdd2be45d8f664e21e4cba6d754efa5ef8912f46b",
+        "size_in_bytes": 77086
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfmnwi.py",
+        "path_type": "hardlink",
+        "sha256": "5ba9adb747975e8026c9bdc853e367a646f7518a2aac1c6016658f9501c053c5",
+        "sha256_in_prefix": "5ba9adb747975e8026c9bdc853e367a646f7518a2aac1c6016658f9501c053c5",
+        "size_in_bytes": 11670
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfnwt.py",
+        "path_type": "hardlink",
+        "sha256": "7f647dc7824ad7dc103a4f65d3c89105acd09e091651af91d7cbb1db7c999df5",
+        "sha256_in_prefix": "7f647dc7824ad7dc103a4f65d3c89105acd09e091651af91d7cbb1db7c999df5",
+        "size_in_bytes": 19505
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfoc.py",
+        "path_type": "hardlink",
+        "sha256": "2c9d978f6c59e4981e2084808859660636bd21025c15d79bf22c472796ad92ff",
+        "sha256_in_prefix": "2c9d978f6c59e4981e2084808859660636bd21025c15d79bf22c472796ad92ff",
+        "size_in_bytes": 38963
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfpar.py",
+        "path_type": "hardlink",
+        "sha256": "8e5f2bfb1a25248bf302f03096e2286cfc3d1e83bfca5662d3689e8634907f1b",
+        "sha256_in_prefix": "8e5f2bfb1a25248bf302f03096e2286cfc3d1e83bfca5662d3689e8634907f1b",
+        "size_in_bytes": 11204
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfparbc.py",
+        "path_type": "hardlink",
+        "sha256": "595c99833746a4f09f894758ec8d3697c032271b3b1a206592c256a6f1efdbf5",
+        "sha256_in_prefix": "595c99833746a4f09f894758ec8d3697c032271b3b1a206592c256a6f1efdbf5",
+        "size_in_bytes": 8996
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfpbc.py",
+        "path_type": "hardlink",
+        "sha256": "1f76a57263d5506ca34fbb91e30c3aed74f3f88a4d2f788a778309478513b9ce",
+        "sha256_in_prefix": "1f76a57263d5506ca34fbb91e30c3aed74f3f88a4d2f788a778309478513b9ce",
+        "size_in_bytes": 3636
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfpcg.py",
+        "path_type": "hardlink",
+        "sha256": "2e32bd19eae57b88adecc1fb8e2f640acb7fba96c8c371e41d837d754dfe7935",
+        "sha256_in_prefix": "2e32bd19eae57b88adecc1fb8e2f640acb7fba96c8c371e41d837d754dfe7935",
+        "size_in_bytes": 10635
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfpcgn.py",
+        "path_type": "hardlink",
+        "sha256": "5f2f14d7cbdeeb715909245b2437c8c0baf507198148fb494a0be0a9bf4a1f4a",
+        "sha256_in_prefix": "5f2f14d7cbdeeb715909245b2437c8c0baf507198148fb494a0be0a9bf4a1f4a",
+        "size_in_bytes": 20280
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfpks.py",
+        "path_type": "hardlink",
+        "sha256": "7e32fbc95baf852019afd4dfff3ebc6362f6e1180abaaaf583b320276d4acf73",
+        "sha256_in_prefix": "7e32fbc95baf852019afd4dfff3ebc6362f6e1180abaaaf583b320276d4acf73",
+        "size_in_bytes": 7718
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfpval.py",
+        "path_type": "hardlink",
+        "sha256": "c33edc4455594011ebf4e9d023f2859c72cb1e000333690ee78231fbbb52ae9c",
+        "sha256_in_prefix": "c33edc4455594011ebf4e9d023f2859c72cb1e000333690ee78231fbbb52ae9c",
+        "size_in_bytes": 5346
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfrch.py",
+        "path_type": "hardlink",
+        "sha256": "495831bdcb48e196db50fcc01062653cddd50934b65d26c212ac9af58e0cd952",
+        "sha256_in_prefix": "495831bdcb48e196db50fcc01062653cddd50934b65d26c212ac9af58e0cd952",
+        "size_in_bytes": 18494
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfriv.py",
+        "path_type": "hardlink",
+        "sha256": "7dd4011063f1ed24dc6b25f842fe67debf83b706c3deb7798e7b96a448579fef",
+        "sha256_in_prefix": "7dd4011063f1ed24dc6b25f842fe67debf83b706c3deb7798e7b96a448579fef",
+        "size_in_bytes": 12354
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfsfr2.py",
+        "path_type": "hardlink",
+        "sha256": "df1593c450e601459c15a468fc90e302829a5ade22ed259461c9404ad9c5baf6",
+        "sha256_in_prefix": "df1593c450e601459c15a468fc90e302829a5ade22ed259461c9404ad9c5baf6",
+        "size_in_bytes": 131653
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfsip.py",
+        "path_type": "hardlink",
+        "sha256": "11e2f3665d7c3c2bc9369420e28db3cf2a4216cfc4a6d75cfcc512107138c991",
+        "sha256_in_prefix": "11e2f3665d7c3c2bc9369420e28db3cf2a4216cfc4a6d75cfcc512107138c991",
+        "size_in_bytes": 7748
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfsor.py",
+        "path_type": "hardlink",
+        "sha256": "079bd8e8952d4bd193816bc404904c1a3a5b3c0a521cb7cfcf5b1898cf9393e1",
+        "sha256_in_prefix": "079bd8e8952d4bd193816bc404904c1a3a5b3c0a521cb7cfcf5b1898cf9393e1",
+        "size_in_bytes": 5443
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfstr.py",
+        "path_type": "hardlink",
+        "sha256": "ab9f1df02ce0ae4a67572cee869716a212f2259652f67a23616b4944248535ec",
+        "sha256_in_prefix": "ab9f1df02ce0ae4a67572cee869716a212f2259652f67a23616b4944248535ec",
+        "size_in_bytes": 36407
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfsub.py",
+        "path_type": "hardlink",
+        "sha256": "8e2eac2bd50ece08b6594c83c5cc53ba09929d176f59397b20215b542708ac59",
+        "sha256_in_prefix": "8e2eac2bd50ece08b6594c83c5cc53ba09929d176f59397b20215b542708ac59",
+        "size_in_bytes": 31316
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfswi2.py",
+        "path_type": "hardlink",
+        "sha256": "6f7a0eef0a59a4d0f066ac51ad1f384ada096d5f947a6f4bbce82123bf404899",
+        "sha256_in_prefix": "6f7a0eef0a59a4d0f066ac51ad1f384ada096d5f947a6f4bbce82123bf404899",
+        "size_in_bytes": 25690
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfswr1.py",
+        "path_type": "hardlink",
+        "sha256": "171c48af621fbe85a8ed955a22a63cd624c24eae2bcfdc4b2a8c290e579cb5f9",
+        "sha256_in_prefix": "171c48af621fbe85a8ed955a22a63cd624c24eae2bcfdc4b2a8c290e579cb5f9",
+        "size_in_bytes": 4541
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfswt.py",
+        "path_type": "hardlink",
+        "sha256": "55167b6f15d1679b6066e1cf73d23f7f4037b3a4d900d2c2e1272c0ad8a704e1",
+        "sha256_in_prefix": "55167b6f15d1679b6066e1cf73d23f7f4037b3a4d900d2c2e1272c0ad8a704e1",
+        "size_in_bytes": 31498
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfupw.py",
+        "path_type": "hardlink",
+        "sha256": "6a716da28027a2636216fac788bb5c93c223c648f61defd758d7b7aa55ccdf8b",
+        "sha256_in_prefix": "6a716da28027a2636216fac788bb5c93c223c648f61defd758d7b7aa55ccdf8b",
+        "size_in_bytes": 20941
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfuzf1.py",
+        "path_type": "hardlink",
+        "sha256": "14abe1f0e678b4e0746f190e38549eb267d398b5aa3cae371e8272a6f620e6e1",
+        "sha256_in_prefix": "14abe1f0e678b4e0746f190e38549eb267d398b5aa3cae371e8272a6f620e6e1",
+        "size_in_bytes": 44974
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfwel.py",
+        "path_type": "hardlink",
+        "sha256": "cf40b6a0746ef374c440a725d8b2c403710f5c4209333351854b14cc8e4e0d37",
+        "sha256_in_prefix": "cf40b6a0746ef374c440a725d8b2c403710f5c4209333351854b14cc8e4e0d37",
+        "size_in_bytes": 12791
+      },
+      {
+        "_path": "site-packages/flopy/modflow/mfzon.py",
+        "path_type": "hardlink",
+        "sha256": "321687e69726f1d1a06be9c42b46e67b53b514de7a4f66931c6a335d2bbd3c4c",
+        "sha256_in_prefix": "321687e69726f1d1a06be9c42b46e67b53b514de7a4f66931c6a335d2bbd3c4c",
+        "size_in_bytes": 5814
+      },
+      {
+        "_path": "site-packages/flopy/modflowlgr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c380364f3896df3f6640a6e68f89da5b64dbd18740fb131086a2754cba93f3ef",
+        "sha256_in_prefix": "c380364f3896df3f6640a6e68f89da5b64dbd18740fb131086a2754cba93f3ef",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "site-packages/flopy/modflowlgr/mflgr.py",
+        "path_type": "hardlink",
+        "sha256": "bb93ef300f8a3472f2b8e83ae73c96c2e8e19886987bc022c9c77688526c7fa4",
+        "sha256_in_prefix": "bb93ef300f8a3472f2b8e83ae73c96c2e8e19886987bc022c9c77688526c7fa4",
+        "size_in_bytes": 20724
+      },
+      {
+        "_path": "site-packages/flopy/modpath/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "915cb3b7dd59e3d74ea4b4ded4b4e5836c40b0e9eda899874dab0da69f0ff2c0",
+        "sha256_in_prefix": "915cb3b7dd59e3d74ea4b4ded4b4e5836c40b0e9eda899874dab0da69f0ff2c0",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp6.py",
+        "path_type": "hardlink",
+        "sha256": "db8fb223c4cd4775eb6f14af958d78f41c0b3463a428d0fc7a6612749fdf791e",
+        "sha256_in_prefix": "db8fb223c4cd4775eb6f14af958d78f41c0b3463a428d0fc7a6612749fdf791e",
+        "size_in_bytes": 19382
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp6bas.py",
+        "path_type": "hardlink",
+        "sha256": "ceb0d341e94f03bd8c00c277e28d966725d9baeaace892a72674090b81dec7b2",
+        "sha256_in_prefix": "ceb0d341e94f03bd8c00c277e28d966725d9baeaace892a72674090b81dec7b2",
+        "size_in_bytes": 6987
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp6sim.py",
+        "path_type": "hardlink",
+        "sha256": "9003808168ce0d49df5aeb01314c97c5f7450230c1389530d9be28c9e85c4629",
+        "sha256_in_prefix": "9003808168ce0d49df5aeb01314c97c5f7450230c1389530d9be28c9e85c4629",
+        "size_in_bytes": 20214
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp7.py",
+        "path_type": "hardlink",
+        "sha256": "d17730c1f4d77eee5ffc8063ab3e164d6e190ff4ef89f212ae41c51e77068ee7",
+        "sha256_in_prefix": "d17730c1f4d77eee5ffc8063ab3e164d6e190ff4ef89f212ae41c51e77068ee7",
+        "size_in_bytes": 16755
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp7bas.py",
+        "path_type": "hardlink",
+        "sha256": "dd033ad1e01cb576936ce54ed2e94af6938045656b81f82d1d8981e4af405d7c",
+        "sha256_in_prefix": "dd033ad1e01cb576936ce54ed2e94af6938045656b81f82d1d8981e4af405d7c",
+        "size_in_bytes": 4179
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp7particledata.py",
+        "path_type": "hardlink",
+        "sha256": "06a5a34888703783a4d37479f218015f84ac3502e2033c496b54a9de1288d631",
+        "sha256_in_prefix": "06a5a34888703783a4d37479f218015f84ac3502e2033c496b54a9de1288d631",
+        "size_in_bytes": 35418
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp7particlegroup.py",
+        "path_type": "hardlink",
+        "sha256": "9ae636bb76c726daa0f309035969fbc6c89d198d381e40b3d903634a62f69bfa",
+        "sha256_in_prefix": "9ae636bb76c726daa0f309035969fbc6c89d198d381e40b3d903634a62f69bfa",
+        "size_in_bytes": 15320
+      },
+      {
+        "_path": "site-packages/flopy/modpath/mp7sim.py",
+        "path_type": "hardlink",
+        "sha256": "c2293dbc428a298f24dc6f3e8f9ebd0dc9a6bbb2b01b3867eda5f9e8c9be4aea",
+        "sha256_in_prefix": "c2293dbc428a298f24dc6f3e8f9ebd0dc9a6bbb2b01b3867eda5f9e8c9be4aea",
+        "size_in_bytes": 25278
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7398667c31c830092e096e435b2c5a4bf8ca4cf41b2f729780002311b729bac6",
+        "sha256_in_prefix": "7398667c31c830092e096e435b2c5a4bf8ca4cf41b2f729780002311b729bac6",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mt.py",
+        "path_type": "hardlink",
+        "sha256": "48c2961936be43e939a72699d35c5a41975faf0e21116cc68d6847643cbb7f1f",
+        "sha256_in_prefix": "48c2961936be43e939a72699d35c5a41975faf0e21116cc68d6847643cbb7f1f",
+        "size_in_bytes": 26541
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtadv.py",
+        "path_type": "hardlink",
+        "sha256": "0da915fd5f874efd9f84af08a4604abc5144fb600aefbb1b3a73e06ed38550ea",
+        "sha256_in_prefix": "0da915fd5f874efd9f84af08a4604abc5144fb600aefbb1b3a73e06ed38550ea",
+        "size_in_bytes": 16041
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtbtn.py",
+        "path_type": "hardlink",
+        "sha256": "6eeb223a4b382134863169c8a6ce49f3139a6eb5d87e3b245e5593f34b289bd4",
+        "sha256_in_prefix": "6eeb223a4b382134863169c8a6ce49f3139a6eb5d87e3b245e5593f34b289bd4",
+        "size_in_bytes": 39209
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtcts.py",
+        "path_type": "hardlink",
+        "sha256": "d61aa458dd49ca001c0c31171c3e575255533bdd516fcd03cb5b4322fbe6f567",
+        "sha256_in_prefix": "d61aa458dd49ca001c0c31171c3e575255533bdd516fcd03cb5b4322fbe6f567",
+        "size_in_bytes": 12194
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtdsp.py",
+        "path_type": "hardlink",
+        "sha256": "0e84c4de221837ff81393959a93342c3d85e1f7e75fa5258de1bd475e8352885",
+        "sha256_in_prefix": "0e84c4de221837ff81393959a93342c3d85e1f7e75fa5258de1bd475e8352885",
+        "size_in_bytes": 15589
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtgcg.py",
+        "path_type": "hardlink",
+        "sha256": "92ee0bc7ce2bf71a1a14e4e3a7c6c58e39e20473aa4dae7bbc6a0c64c4c8a6f0",
+        "sha256_in_prefix": "92ee0bc7ce2bf71a1a14e4e3a7c6c58e39e20473aa4dae7bbc6a0c64c4c8a6f0",
+        "size_in_bytes": 6850
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtlkt.py",
+        "path_type": "hardlink",
+        "sha256": "5959fa3b0e4d28d4b3556352c599999aa1e5ffa95fae61163ca65b1dcb05b7fb",
+        "sha256_in_prefix": "5959fa3b0e4d28d4b3556352c599999aa1e5ffa95fae61163ca65b1dcb05b7fb",
+        "size_in_bytes": 17714
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtphc.py",
+        "path_type": "hardlink",
+        "sha256": "f629152487061a83e17727d45f82449a79fb0f47240d294facc9df429643747d",
+        "sha256_in_prefix": "f629152487061a83e17727d45f82449a79fb0f47240d294facc9df429643747d",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtrct.py",
+        "path_type": "hardlink",
+        "sha256": "d0eff3c5b9c6326369055a1849c86defdd0cf93ea62407ca8d4edb7147e04c2b",
+        "sha256_in_prefix": "d0eff3c5b9c6326369055a1849c86defdd0cf93ea62407ca8d4edb7147e04c2b",
+        "size_in_bytes": 27504
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtsft.py",
+        "path_type": "hardlink",
+        "sha256": "69b0b932e8a82175902e205609696eaa1590bc9fcc17668058b7738ba7a5e319",
+        "sha256_in_prefix": "69b0b932e8a82175902e205609696eaa1590bc9fcc17668058b7738ba7a5e319",
+        "size_in_bytes": 28812
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtssm.py",
+        "path_type": "hardlink",
+        "sha256": "eb548e410c9dfebf52d1a572407f3e3642076ce331487fd9f56c16f7152e60ef",
+        "sha256_in_prefix": "eb548e410c9dfebf52d1a572407f3e3642076ce331487fd9f56c16f7152e60ef",
+        "size_in_bytes": 29313
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mttob.py",
+        "path_type": "hardlink",
+        "sha256": "5a2a3fbb902940bb7ab14371421f29a616a7d16f3f0a2ef855397694bbdb5c3d",
+        "sha256_in_prefix": "5a2a3fbb902940bb7ab14371421f29a616a7d16f3f0a2ef855397694bbdb5c3d",
+        "size_in_bytes": 3353
+      },
+      {
+        "_path": "site-packages/flopy/mt3d/mtuzt.py",
+        "path_type": "hardlink",
+        "sha256": "eb4f41d37d6fba177eb9105f0ef34dd7b5c7d71027e2ac74775f8f00a01f4438",
+        "sha256_in_prefix": "eb4f41d37d6fba177eb9105f0ef34dd7b5c7d71027e2ac74775f8f00a01f4438",
+        "size_in_bytes": 27575
+      },
+      {
+        "_path": "site-packages/flopy/pakbase.py",
+        "path_type": "hardlink",
+        "sha256": "7af6f75426cd404a293d8d7ecdad1be1157c11bedf4ad37735c00a4566949d1c",
+        "sha256_in_prefix": "7af6f75426cd404a293d8d7ecdad1be1157c11bedf4ad37735c00a4566949d1c",
+        "size_in_bytes": 43399
+      },
+      {
+        "_path": "site-packages/flopy/pest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0517fda86a5fb6e42e869359d83c3606dd4d10cf5c07673b45871d4e1826c8f2",
+        "sha256_in_prefix": "0517fda86a5fb6e42e869359d83c3606dd4d10cf5c07673b45871d4e1826c8f2",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/flopy/pest/params.py",
+        "path_type": "hardlink",
+        "sha256": "149adecdef4313ea7cbb67f0f605a47ff06c19f5dcdfade4700f2ca5de8ccbde",
+        "sha256_in_prefix": "149adecdef4313ea7cbb67f0f605a47ff06c19f5dcdfade4700f2ca5de8ccbde",
+        "size_in_bytes": 2866
+      },
+      {
+        "_path": "site-packages/flopy/pest/templatewriter.py",
+        "path_type": "hardlink",
+        "sha256": "5e0bb19645ef2ebac3e4a9ad930d7bf4d8df69f4c2c9207a5ee93d2f01ac2dde",
+        "sha256_in_prefix": "5e0bb19645ef2ebac3e4a9ad930d7bf4d8df69f4c2c9207a5ee93d2f01ac2dde",
+        "size_in_bytes": 3140
+      },
+      {
+        "_path": "site-packages/flopy/pest/tplarray.py",
+        "path_type": "hardlink",
+        "sha256": "adf204502613c30b34c59939260acabe43cf816dec7fe51864fc78e775b758b3",
+        "sha256_in_prefix": "adf204502613c30b34c59939260acabe43cf816dec7fe51864fc78e775b758b3",
+        "size_in_bytes": 5789
+      },
+      {
+        "_path": "site-packages/flopy/plot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "80a68a1262788e152774b07445482d31ada7f35c10d063e9fccc2065ecb2e97c",
+        "sha256_in_prefix": "80a68a1262788e152774b07445482d31ada7f35c10d063e9fccc2065ecb2e97c",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "site-packages/flopy/plot/crosssection.py",
+        "path_type": "hardlink",
+        "sha256": "0a9a2492a3fc3b362611f4b45b8a381ac8e0c0710ffbbff53ab142e0b33d966b",
+        "sha256_in_prefix": "0a9a2492a3fc3b362611f4b45b8a381ac8e0c0710ffbbff53ab142e0b33d966b",
+        "size_in_bytes": 49473
+      },
+      {
+        "_path": "site-packages/flopy/plot/map.py",
+        "path_type": "hardlink",
+        "sha256": "a1fdcbb41317145d7f9eb403bc8bb9f9012e3b27feb1a8f47a7421bc78b1f0c5",
+        "sha256_in_prefix": "a1fdcbb41317145d7f9eb403bc8bb9f9012e3b27feb1a8f47a7421bc78b1f0c5",
+        "size_in_bytes": 31498
+      },
+      {
+        "_path": "site-packages/flopy/plot/mplstyle/usgsmap.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "d9f3ca93dd799d6fb521c81ae455b8290d044a27edc6e209a472a89787ad3053",
+        "sha256_in_prefix": "d9f3ca93dd799d6fb521c81ae455b8290d044a27edc6e209a472a89787ad3053",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "site-packages/flopy/plot/mplstyle/usgsmap_linux.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "d2e60a2700a9a5016470e3bcf8286774f73329c9c5403f0cc89817d0fe29e8ed",
+        "sha256_in_prefix": "d2e60a2700a9a5016470e3bcf8286774f73329c9c5403f0cc89817d0fe29e8ed",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "site-packages/flopy/plot/mplstyle/usgsplot.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "9dec0550827b8a912e408a30abec036f3dcab7ae04bbd88fbe7ee25313e46f10",
+        "sha256_in_prefix": "9dec0550827b8a912e408a30abec036f3dcab7ae04bbd88fbe7ee25313e46f10",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "site-packages/flopy/plot/mplstyle/usgsplot_linux.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "3f82c56b61bfb0f9c28413e0e271b35f5ad285933b5a7e360a39031569a33f31",
+        "sha256_in_prefix": "3f82c56b61bfb0f9c28413e0e271b35f5ad285933b5a7e360a39031569a33f31",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "site-packages/flopy/plot/plotutil.py",
+        "path_type": "hardlink",
+        "sha256": "a599b184608747643b0b2d04276059d0926bc587feb048f730e62131bdb0ecbe",
+        "sha256_in_prefix": "a599b184608747643b0b2d04276059d0926bc587feb048f730e62131bdb0ecbe",
+        "size_in_bytes": 94488
+      },
+      {
+        "_path": "site-packages/flopy/plot/styles.py",
+        "path_type": "hardlink",
+        "sha256": "0ffccf7959441d228eedb7eef037fc69f09daa49b4fe2b85e10d44e5507c68cc",
+        "sha256_in_prefix": "0ffccf7959441d228eedb7eef037fc69f09daa49b4fe2b85e10d44e5507c68cc",
+        "size_in_bytes": 12926
+      },
+      {
+        "_path": "site-packages/flopy/seawat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1d5763d69774e54b83e75387cf402d9abbc0015c9b27664e358c5f34adebcb34",
+        "sha256_in_prefix": "1d5763d69774e54b83e75387cf402d9abbc0015c9b27664e358c5f34adebcb34",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/flopy/seawat/swt.py",
+        "path_type": "hardlink",
+        "sha256": "5f5baf848984a81effcbef0d14ef5b0d68e2fcf91a99abd18fe45a1f0cb593a3",
+        "sha256_in_prefix": "5f5baf848984a81effcbef0d14ef5b0d68e2fcf91a99abd18fe45a1f0cb593a3",
+        "size_in_bytes": 14845
+      },
+      {
+        "_path": "site-packages/flopy/seawat/swtvdf.py",
+        "path_type": "hardlink",
+        "sha256": "e0bb35134e29c46cb194be7422ea24e13f624e1c7a9898d60621d7f1894d2f58",
+        "sha256_in_prefix": "e0bb35134e29c46cb194be7422ea24e13f624e1c7a9898d60621d7f1894d2f58",
+        "size_in_bytes": 20286
+      },
+      {
+        "_path": "site-packages/flopy/seawat/swtvsc.py",
+        "path_type": "hardlink",
+        "sha256": "fdd3e18de768d70e2275ad6079b18d05b20b6f91e837a747a7b3dd7c6a0e87b5",
+        "sha256_in_prefix": "fdd3e18de768d70e2275ad6079b18d05b20b6f91e837a747a7b3dd7c6a0e87b5",
+        "size_in_bytes": 17335
+      },
+      {
+        "_path": "site-packages/flopy/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "989f4c9f255065d320b1e66fc6dc211118a953ae44e710eee46dd3a8180abda1",
+        "sha256_in_prefix": "989f4c9f255065d320b1e66fc6dc211118a953ae44e710eee46dd3a8180abda1",
+        "size_in_bytes": 1590
+      },
+      {
+        "_path": "site-packages/flopy/utils/binaryfile.py",
+        "path_type": "hardlink",
+        "sha256": "3baaf7e7561d101f2ab6456e70a17f70bea50c5da9a67e267ad6f5e1c714ebc2",
+        "sha256_in_prefix": "3baaf7e7561d101f2ab6456e70a17f70bea50c5da9a67e267ad6f5e1c714ebc2",
+        "size_in_bytes": 67818
+      },
+      {
+        "_path": "site-packages/flopy/utils/check.py",
+        "path_type": "hardlink",
+        "sha256": "ae5399aa13e565526abaabe6b0b3429b886b7a2c8ad4797a1e9104034cd80a66",
+        "sha256_in_prefix": "ae5399aa13e565526abaabe6b0b3429b886b7a2c8ad4797a1e9104034cd80a66",
+        "size_in_bytes": 32207
+      },
+      {
+        "_path": "site-packages/flopy/utils/compare.py",
+        "path_type": "hardlink",
+        "sha256": "c39c8d299f92a7ab0ba4097fff921089e3a121ef220ac5879a4d6b18ba7a231f",
+        "sha256_in_prefix": "c39c8d299f92a7ab0ba4097fff921089e3a121ef220ac5879a4d6b18ba7a231f",
+        "size_in_bytes": 49943
+      },
+      {
+        "_path": "site-packages/flopy/utils/crs.py",
+        "path_type": "hardlink",
+        "sha256": "49a00412d3d2d8f33b6506953501a7d0561777c7e8194f6cf2cf5b9526544e86",
+        "sha256_in_prefix": "49a00412d3d2d8f33b6506953501a7d0561777c7e8194f6cf2cf5b9526544e86",
+        "size_in_bytes": 5064
+      },
+      {
+        "_path": "site-packages/flopy/utils/cvfdutil.py",
+        "path_type": "hardlink",
+        "sha256": "e80e41791d0a35b2bbe13345c3def9d2c2f821117ac70ebdde40c1011ee12e82",
+        "sha256_in_prefix": "e80e41791d0a35b2bbe13345c3def9d2c2f821117ac70ebdde40c1011ee12e82",
+        "size_in_bytes": 12056
+      },
+      {
+        "_path": "site-packages/flopy/utils/datafile.py",
+        "path_type": "hardlink",
+        "sha256": "1ff2f1cd9763e81e14609fcf4ceb787acce67a021b76c9b40cec92480c9b713a",
+        "sha256_in_prefix": "1ff2f1cd9763e81e14609fcf4ceb787acce67a021b76c9b40cec92480c9b713a",
+        "size_in_bytes": 19899
+      },
+      {
+        "_path": "site-packages/flopy/utils/datautil.py",
+        "path_type": "hardlink",
+        "sha256": "1c49aff399dfd2b846c372ae4ede84275cc117085fe26fbd1a4f35170b0f978b",
+        "sha256_in_prefix": "1c49aff399dfd2b846c372ae4ede84275cc117085fe26fbd1a4f35170b0f978b",
+        "size_in_bytes": 27035
+      },
+      {
+        "_path": "site-packages/flopy/utils/flopy_io.py",
+        "path_type": "hardlink",
+        "sha256": "0c5f4885c3e79118e6fffab8139907e5b727809425bfa4aef719f0febe59b6d4",
+        "sha256_in_prefix": "0c5f4885c3e79118e6fffab8139907e5b727809425bfa4aef719f0febe59b6d4",
+        "size_in_bytes": 17875
+      },
+      {
+        "_path": "site-packages/flopy/utils/formattedfile.py",
+        "path_type": "hardlink",
+        "sha256": "dbce6578d8ffcba18fa989ca5ab484fc6bad728518fd57e3094de552a7776e93",
+        "sha256_in_prefix": "dbce6578d8ffcba18fa989ca5ab484fc6bad728518fd57e3094de552a7776e93",
+        "size_in_bytes": 12649
+      },
+      {
+        "_path": "site-packages/flopy/utils/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "c9a43c18994e7c5c4265e3756fcf1760dbc4f531a78cad6674b732529335fbe9",
+        "sha256_in_prefix": "c9a43c18994e7c5c4265e3756fcf1760dbc4f531a78cad6674b732529335fbe9",
+        "size_in_bytes": 24525
+      },
+      {
+        "_path": "site-packages/flopy/utils/geospatial_utils.py",
+        "path_type": "hardlink",
+        "sha256": "60bbe2ef77c4b02dee13f880dc78dc8504b28b0956c1f05080280c3339fb1b05",
+        "sha256_in_prefix": "60bbe2ef77c4b02dee13f880dc78dc8504b28b0956c1f05080280c3339fb1b05",
+        "size_in_bytes": 14411
+      },
+      {
+        "_path": "site-packages/flopy/utils/get_modflow.py",
+        "path_type": "hardlink",
+        "sha256": "bdd1087bdaa8b484a21e1ec99f28d8f241aa6a471bc9ec2334629dc11d34db03",
+        "sha256_in_prefix": "bdd1087bdaa8b484a21e1ec99f28d8f241aa6a471bc9ec2334629dc11d34db03",
+        "size_in_bytes": 26330
+      },
+      {
+        "_path": "site-packages/flopy/utils/gridgen.py",
+        "path_type": "hardlink",
+        "sha256": "9e5455adde5b4bba2f06ab5d88046247ea8d06fd76448550314bc1d9b40c4f72",
+        "sha256_in_prefix": "9e5455adde5b4bba2f06ab5d88046247ea8d06fd76448550314bc1d9b40c4f72",
+        "size_in_bytes": 60100
+      },
+      {
+        "_path": "site-packages/flopy/utils/gridintersect.py",
+        "path_type": "hardlink",
+        "sha256": "175f58ee1bd6b5e079fc1a621e6cb89da0e76ff5c76c67edece807171e0f2716",
+        "sha256_in_prefix": "175f58ee1bd6b5e079fc1a621e6cb89da0e76ff5c76c67edece807171e0f2716",
+        "size_in_bytes": 86121
+      },
+      {
+        "_path": "site-packages/flopy/utils/gridutil.py",
+        "path_type": "hardlink",
+        "sha256": "b54fc2affc2cd389a5ed811e2d768ada570878e5fe17d64186fb2d64448584b3",
+        "sha256_in_prefix": "b54fc2affc2cd389a5ed811e2d768ada570878e5fe17d64186fb2d64448584b3",
+        "size_in_bytes": 7063
+      },
+      {
+        "_path": "site-packages/flopy/utils/lgrutil.py",
+        "path_type": "hardlink",
+        "sha256": "88716cb945c8b132b023698aae119285657f876de6f1f2ccd98f66ecae89b85e",
+        "sha256_in_prefix": "88716cb945c8b132b023698aae119285657f876de6f1f2ccd98f66ecae89b85e",
+        "size_in_bytes": 18441
+      },
+      {
+        "_path": "site-packages/flopy/utils/mflistfile.py",
+        "path_type": "hardlink",
+        "sha256": "453cb5bb736db4a01588f09537d646d93f28ee04634ef46582c4bdaf8ae87e42",
+        "sha256_in_prefix": "453cb5bb736db4a01588f09537d646d93f28ee04634ef46582c4bdaf8ae87e42",
+        "size_in_bytes": 31945
+      },
+      {
+        "_path": "site-packages/flopy/utils/mfreadnam.py",
+        "path_type": "hardlink",
+        "sha256": "fbe25be00157bed1bb89857cd7edb9acc41626e467b137e0388a46813566403d",
+        "sha256_in_prefix": "fbe25be00157bed1bb89857cd7edb9acc41626e467b137e0388a46813566403d",
+        "size_in_bytes": 23327
+      },
+      {
+        "_path": "site-packages/flopy/utils/modpathfile.py",
+        "path_type": "hardlink",
+        "sha256": "09c4360b453f3bb13dc84f9c2c1ccb8db2148f1233d46b5aa2bfe3a168419a2c",
+        "sha256_in_prefix": "09c4360b453f3bb13dc84f9c2c1ccb8db2148f1233d46b5aa2bfe3a168419a2c",
+        "size_in_bytes": 51301
+      },
+      {
+        "_path": "site-packages/flopy/utils/mtlistfile.py",
+        "path_type": "hardlink",
+        "sha256": "f6d516c6d54ad728cfd7566ec966cab0c453562fe5fed0b2f0081d6462e5086e",
+        "sha256_in_prefix": "f6d516c6d54ad728cfd7566ec966cab0c453562fe5fed0b2f0081d6462e5086e",
+        "size_in_bytes": 18347
+      },
+      {
+        "_path": "site-packages/flopy/utils/observationfile.py",
+        "path_type": "hardlink",
+        "sha256": "0199432ccf742e1b6eaac4fe2451adfe4f58a87d85fa9596833381139fb9d415",
+        "sha256_in_prefix": "0199432ccf742e1b6eaac4fe2451adfe4f58a87d85fa9596833381139fb9d415",
+        "size_in_bytes": 19997
+      },
+      {
+        "_path": "site-packages/flopy/utils/optionblock.py",
+        "path_type": "hardlink",
+        "sha256": "936b76a07c7f5916446c1ec5aa8e5a086b951f5f6c13e2ecbba39e038d258b15",
+        "sha256_in_prefix": "936b76a07c7f5916446c1ec5aa8e5a086b951f5f6c13e2ecbba39e038d258b15",
+        "size_in_bytes": 14915
+      },
+      {
+        "_path": "site-packages/flopy/utils/parse_version.py",
+        "path_type": "hardlink",
+        "sha256": "ec80353f4023c280bff074caa6afa4b28c614f64ccc3dc1b3d5f28d5e607247d",
+        "sha256_in_prefix": "ec80353f4023c280bff074caa6afa4b28c614f64ccc3dc1b3d5f28d5e607247d",
+        "size_in_bytes": 16371
+      },
+      {
+        "_path": "site-packages/flopy/utils/postprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "83acd595d9b17a3c114b73243575395da73ed6726ae81c622c2d4f0a256d2fc5",
+        "sha256_in_prefix": "83acd595d9b17a3c114b73243575395da73ed6726ae81c622c2d4f0a256d2fc5",
+        "size_in_bytes": 28932
+      },
+      {
+        "_path": "site-packages/flopy/utils/rasters.py",
+        "path_type": "hardlink",
+        "sha256": "f302bc54e497c0acddc859c8248064cfcd6f42efc594c56cfe796eadc186a2d7",
+        "sha256_in_prefix": "f302bc54e497c0acddc859c8248064cfcd6f42efc594c56cfe796eadc186a2d7",
+        "size_in_bytes": 25173
+      },
+      {
+        "_path": "site-packages/flopy/utils/recarray_utils.py",
+        "path_type": "hardlink",
+        "sha256": "35f1511fa90d5930ae26f4e18d870af715c65018eb3c68a3827cdff2ed25908b",
+        "sha256_in_prefix": "35f1511fa90d5930ae26f4e18d870af715c65018eb3c68a3827cdff2ed25908b",
+        "size_in_bytes": 2571
+      },
+      {
+        "_path": "site-packages/flopy/utils/reference.py",
+        "path_type": "hardlink",
+        "sha256": "acb5e840b019ab18fc52590ea8777cce66404e9caf2db031354f0c12d268ee17",
+        "sha256_in_prefix": "acb5e840b019ab18fc52590ea8777cce66404e9caf2db031354f0c12d268ee17",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "site-packages/flopy/utils/sfroutputfile.py",
+        "path_type": "hardlink",
+        "sha256": "adfb413595545774d7e49a7397b2d1ce0728f3dd826ad45fbdb4ae6b62644836",
+        "sha256_in_prefix": "adfb413595545774d7e49a7397b2d1ce0728f3dd826ad45fbdb4ae6b62644836",
+        "size_in_bytes": 7066
+      },
+      {
+        "_path": "site-packages/flopy/utils/swroutputfile.py",
+        "path_type": "hardlink",
+        "sha256": "3619e9efa9f2c94cdcbe40ff121116c3c8a3b195fbe019248fa059cb9f2bc21d",
+        "sha256_in_prefix": "3619e9efa9f2c94cdcbe40ff121116c3c8a3b195fbe019248fa059cb9f2bc21d",
+        "size_in_bytes": 23617
+      },
+      {
+        "_path": "site-packages/flopy/utils/triangle.py",
+        "path_type": "hardlink",
+        "sha256": "16fa064568438c4fca2ce139fb7511f77ebf8ba54cfed0bb72cf83d0c089e6f0",
+        "sha256_in_prefix": "16fa064568438c4fca2ce139fb7511f77ebf8ba54cfed0bb72cf83d0c089e6f0",
+        "size_in_bytes": 22804
+      },
+      {
+        "_path": "site-packages/flopy/utils/util_array.py",
+        "path_type": "hardlink",
+        "sha256": "85a8d1e50953be50a13b9c51a14b20adbd37a701a06eb9b4be7df9e7bdaae72a",
+        "sha256_in_prefix": "85a8d1e50953be50a13b9c51a14b20adbd37a701a06eb9b4be7df9e7bdaae72a",
+        "size_in_bytes": 101722
+      },
+      {
+        "_path": "site-packages/flopy/utils/util_list.py",
+        "path_type": "hardlink",
+        "sha256": "bbe15e1546eac7c702dde05a07249632ad68020881f50a0ac89647b93e45de26",
+        "sha256_in_prefix": "bbe15e1546eac7c702dde05a07249632ad68020881f50a0ac89647b93e45de26",
+        "size_in_bytes": 43278
+      },
+      {
+        "_path": "site-packages/flopy/utils/utils_def.py",
+        "path_type": "hardlink",
+        "sha256": "406caf87447073046e607ea15483f597596d6f94ccacbc72d03639c43469fe51",
+        "sha256_in_prefix": "406caf87447073046e607ea15483f597596d6f94ccacbc72d03639c43469fe51",
+        "size_in_bytes": 6886
+      },
+      {
+        "_path": "site-packages/flopy/utils/utl_import.py",
+        "path_type": "hardlink",
+        "sha256": "a1bd497a6cdeab995ca5244a390351fccbbb7ef041eff2dee0236b675b03be9b",
+        "sha256_in_prefix": "a1bd497a6cdeab995ca5244a390351fccbbb7ef041eff2dee0236b675b03be9b",
+        "size_in_bytes": 5813
+      },
+      {
+        "_path": "site-packages/flopy/utils/voronoi.py",
+        "path_type": "hardlink",
+        "sha256": "c2da77168e300dcd6ac5a6da5c07181de9bfe0cea3bb16da9a27528c50842a37",
+        "sha256_in_prefix": "c2da77168e300dcd6ac5a6da5c07181de9bfe0cea3bb16da9a27528c50842a37",
+        "size_in_bytes": 12281
+      },
+      {
+        "_path": "site-packages/flopy/utils/zonbud.py",
+        "path_type": "hardlink",
+        "sha256": "10f5d74e11339a8998a97ac1802344e5972436fff1a02838fad0998b34f01620",
+        "sha256_in_prefix": "10f5d74e11339a8998a97ac1802344e5972436fff1a02838fad0998b34f01620",
+        "size_in_bytes": 102536
+      },
+      {
+        "_path": "site-packages/flopy/version.py",
+        "path_type": "hardlink",
+        "sha256": "ce43ab19fa917a1cea4cb1817fe825eb4044ecd0c06b6a2155a43e401013e787",
+        "sha256_in_prefix": "ce43ab19fa917a1cea4cb1817fe825eb4044ecd0c06b6a2155a43e401013e787",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "Lib/site-packages/flopy/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/__pycache__/datbase.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/discretization/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/discretization/__pycache__/grid.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/discretization/__pycache__/modeltime.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/discretization/__pycache__/structuredgrid.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/discretization/__pycache__/unstructuredgrid.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/discretization/__pycache__/vertexgrid.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/longnames.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/metadata.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/netcdf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/shapefile_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/unitsformat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/export/__pycache__/vtk.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/__pycache__/mbase.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/coordinates/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/coordinates/__pycache__/modeldimensions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/coordinates/__pycache__/modelgrid.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/coordinates/__pycache__/simulationtime.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mfdata.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mfdataarray.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatalist.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatascalar.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatastorage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mfdatautil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mffileaccess.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/data/__pycache__/mfstructure.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/__pycache__/mfbase.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/__pycache__/mfmodel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/__pycache__/mfpackage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfems.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgnc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfapi.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfbuy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfchd.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfcsub.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdis.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdisu.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdisv.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfdrn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfevt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfevta.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfghb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfgnc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfgwf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfgwt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfhfb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwflak.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfmaw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfmvr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfnam.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfnpf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfoc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfrch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfrcha.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfriv.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfsfr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfsto.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfuzf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfvsc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwfwel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtadv.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtapi.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtcnc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdis.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdisu.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdisv.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtdsp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtfmi.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtgwt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtist.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtlkt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtmst.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtmvt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtmwt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtnam.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtoc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtsft.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtsrc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtssm.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfgwtuzt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfims.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfmvr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfmvt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfnam.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfsimulation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mftdis.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlats.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutllaktab.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlobs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlsfrtab.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlspc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlspca.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutltas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutlts.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutltvk.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/modflow/__pycache__/mfutltvs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/binaryfile_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/binarygrid_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/createpackages.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/generate_classes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/lakpak_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/mfenums.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/mfobservation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/model_splitter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/output_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/postprocessing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/reference.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mf6/utils/__pycache__/testutils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/cln_dtypes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusg.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusgbcf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusgcln.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusgdisu.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusggnc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusglpf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusgsms.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mfusg/__pycache__/mfusgwel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfaddoutsidefile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfag.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfbas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfbcf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfbct.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfchd.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfde4.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfdis.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfdrn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfdrt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfevt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mffhb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfflwob.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfgage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfghb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfgmg.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfhfb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfhob.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfhyd.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mflak.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mflmt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mflpf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfmlt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfmnw1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfmnw2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfmnwi.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfnwt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfoc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfpar.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfparbc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfpbc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfpcg.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfpcgn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfpks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfpval.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfrch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfriv.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfsfr2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfsip.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfsor.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfstr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfsub.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfswi2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfswr1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfswt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfupw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfuzf1.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfwel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflow/__pycache__/mfzon.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflowlgr/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modflowlgr/__pycache__/mflgr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp6.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp6bas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp6sim.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp7.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp7bas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp7particledata.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp7particlegroup.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/modpath/__pycache__/mp7sim.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtadv.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtbtn.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtcts.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtdsp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtgcg.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtlkt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtphc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtrct.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtsft.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtssm.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mttob.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/mt3d/__pycache__/mtuzt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/__pycache__/pakbase.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/pest/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/pest/__pycache__/params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/pest/__pycache__/templatewriter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/pest/__pycache__/tplarray.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/plot/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/plot/__pycache__/crosssection.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/plot/__pycache__/map.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/plot/__pycache__/plotutil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/plot/__pycache__/styles.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/seawat/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/seawat/__pycache__/swt.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/seawat/__pycache__/swtvdf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/seawat/__pycache__/swtvsc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/binaryfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/check.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/compare.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/crs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/cvfdutil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/datafile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/datautil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/flopy_io.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/formattedfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/geometry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/geospatial_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/get_modflow.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/gridgen.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/gridintersect.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/gridutil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/lgrutil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/mflistfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/mfreadnam.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/modpathfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/mtlistfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/observationfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/optionblock.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/parse_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/postprocessing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/rasters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/recarray_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/reference.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/sfroutputfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/swroutputfile.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/triangle.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/util_array.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/util_list.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/utils_def.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/utl_import.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/voronoi.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/utils/__pycache__/zonbud.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/flopy/__pycache__/version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/get-modflow-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/get-modflow.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "flopy",
+  "sha256": "87eb5acb6a4448b7b2978aaf2994d5c7f75d7e62f62a3c2ecf6d29fd380b4b92",
+  "size": 763490,
+  "subdir": "noarch",
+  "timestamp": 1696354539000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flopy-3.4.3-pyhd8ed1ab_0.conda",
+  "version": "3.4.3"
+}

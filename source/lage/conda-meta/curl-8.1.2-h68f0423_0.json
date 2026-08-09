@@ -1,0 +1,49 @@
+{
+  "build": "h68f0423_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.20.1,<1.21.0a0",
+    "libcurl 8.1.2 h68f0423_0",
+    "libssh2 >=1.10.0,<2.0a0",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\mouss\\mambaforge\\pkgs\\curl-8.1.2-h68f0423_0",
+  "features": "",
+  "files": [
+    "Library/bin/curl.exe"
+  ],
+  "fn": "curl-8.1.2-h68f0423_0.conda",
+  "license": "curl",
+  "link": {
+    "source": "C:\\Users\\mouss\\mambaforge\\pkgs\\curl-8.1.2-h68f0423_0",
+    "type": 1
+  },
+  "md5": "fc67d347f9eaa7922fd7bc26bfa5419b",
+  "name": "curl",
+  "package_tarball_full_path": "C:\\Users\\mouss\\mambaforge\\pkgs\\curl-8.1.2-h68f0423_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/curl.exe",
+        "path_type": "hardlink",
+        "sha256": "5c57c066dcdcbd8c79d00e351cb4f5c39c671a93469286055cd52655f81c4848",
+        "sha256_in_prefix": "5c57c066dcdcbd8c79d00e351cb4f5c39c671a93469286055cd52655f81c4848",
+        "size_in_bytes": 455680
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ba08ea94aa7eb8dcc4a35a7a7bb1992f04d1a0d23db5b89d4313f271fc99f52e",
+  "size": 140500,
+  "subdir": "win-64",
+  "timestamp": 1685448236000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/curl-8.1.2-h68f0423_0.conda",
+  "version": "8.1.2"
+}

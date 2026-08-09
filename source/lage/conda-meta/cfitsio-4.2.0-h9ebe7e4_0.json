@@ -1,0 +1,129 @@
+{
+  "build": "h9ebe7e4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "libcurl >=7.86.0,<9.0a0",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vs2015_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\mouss\\mambaforge\\pkgs\\cfitsio-4.2.0-h9ebe7e4_0",
+  "features": "",
+  "files": [
+    "Library/bin/FPack.exe",
+    "Library/bin/Fitscopy.exe",
+    "Library/bin/Funpack.exe",
+    "Library/bin/cfitsio.dll",
+    "Library/include/fitsio.h",
+    "Library/include/fitsio2.h",
+    "Library/include/longnam.h",
+    "Library/lib/cfitsio-4.2.0/cfitsio-config-version.cmake",
+    "Library/lib/cfitsio-4.2.0/cfitsio-config.cmake",
+    "Library/lib/cfitsio.lib",
+    "Library/lib/pkgconfig/cfitsio.pc"
+  ],
+  "fn": "cfitsio-4.2.0-h9ebe7e4_0.conda",
+  "license": "LicenseRef-fitsio",
+  "link": {
+    "source": "C:\\Users\\mouss\\mambaforge\\pkgs\\cfitsio-4.2.0-h9ebe7e4_0",
+    "type": 1
+  },
+  "md5": "cccd314cbeea4f2f70f73c763d9660e8",
+  "name": "cfitsio",
+  "package_tarball_full_path": "C:\\Users\\mouss\\mambaforge\\pkgs\\cfitsio-4.2.0-h9ebe7e4_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/FPack.exe",
+        "path_type": "hardlink",
+        "sha256": "687c04521d34c07ee6d5f0fbe81869ff1a67861cd4566761941a4a55cc340706",
+        "sha256_in_prefix": "687c04521d34c07ee6d5f0fbe81869ff1a67861cd4566761941a4a55cc340706",
+        "size_in_bytes": 55296
+      },
+      {
+        "_path": "Library/bin/Fitscopy.exe",
+        "path_type": "hardlink",
+        "sha256": "4c1dd31377d846ef09ce27d53b59adf1202375d4db75b4ed0e4fc5e17d7783c8",
+        "sha256_in_prefix": "4c1dd31377d846ef09ce27d53b59adf1202375d4db75b4ed0e4fc5e17d7783c8",
+        "size_in_bytes": 12288
+      },
+      {
+        "_path": "Library/bin/Funpack.exe",
+        "path_type": "hardlink",
+        "sha256": "1b16c44938bb1a90bf1d77dc90de9eb7d77b835641557d2cb64c4951cdf7cf37",
+        "sha256_in_prefix": "1b16c44938bb1a90bf1d77dc90de9eb7d77b835641557d2cb64c4951cdf7cf37",
+        "size_in_bytes": 48640
+      },
+      {
+        "_path": "Library/bin/cfitsio.dll",
+        "path_type": "hardlink",
+        "sha256": "54d77e1dfe11b12f9345fdeb253127a348957708a8fad739a1fc1f57e18896f4",
+        "sha256_in_prefix": "54d77e1dfe11b12f9345fdeb253127a348957708a8fad739a1fc1f57e18896f4",
+        "size_in_bytes": 1359872
+      },
+      {
+        "_path": "Library/include/fitsio.h",
+        "path_type": "hardlink",
+        "sha256": "e313fdeecf0b205ff48e0a0e1c375a9a7b395a5aa3633b77c58b9c7eea341110",
+        "sha256_in_prefix": "e313fdeecf0b205ff48e0a0e1c375a9a7b395a5aa3633b77c58b9c7eea341110",
+        "size_in_bytes": 119972
+      },
+      {
+        "_path": "Library/include/fitsio2.h",
+        "path_type": "hardlink",
+        "sha256": "a984520b09d0a0ecbe5adeae460dd41ad6a0d3b6c9dc9487e7edfdf4aa702a57",
+        "sha256_in_prefix": "a984520b09d0a0ecbe5adeae460dd41ad6a0d3b6c9dc9487e7edfdf4aa702a57",
+        "size_in_bytes": 65483
+      },
+      {
+        "_path": "Library/include/longnam.h",
+        "path_type": "hardlink",
+        "sha256": "d5b0c6d9811e14c2a548e19df0b68145325e35d1eb67ad56cb145ace0ad6dafa",
+        "sha256_in_prefix": "d5b0c6d9811e14c2a548e19df0b68145325e35d1eb67ad56cb145ace0ad6dafa",
+        "size_in_bytes": 21894
+      },
+      {
+        "_path": "Library/lib/cfitsio-4.2.0/cfitsio-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "92e636cf2ade936bb1c220cb422217eef0d3dd789483f948ff88242f03a76469",
+        "sha256_in_prefix": "92e636cf2ade936bb1c220cb422217eef0d3dd789483f948ff88242f03a76469",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "Library/lib/cfitsio-4.2.0/cfitsio-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "7cc311a01a283e3bc9d9192e9de39169c87918e30e9a8c7f47f7841fa760eae5",
+        "sha256_in_prefix": "7cc311a01a283e3bc9d9192e9de39169c87918e30e9a8c7f47f7841fa760eae5",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "Library/lib/cfitsio.lib",
+        "path_type": "hardlink",
+        "sha256": "056790e1497623b844f1952d135bbedf20aee080f045669b09ad50da25395c08",
+        "sha256_in_prefix": "056790e1497623b844f1952d135bbedf20aee080f045669b09ad50da25395c08",
+        "size_in_bytes": 109988
+      },
+      {
+        "_path": "Library/lib/pkgconfig/cfitsio.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/cfitsio_1668757061799/_h_env",
+        "sha256": "92b88fa2ed968969a87dcadbae8f25edd39e96a51c8fa3591a94be8c23e5e2ed",
+        "sha256_in_prefix": "d1ec71c42a3a3ab994ba0717f6e14d4795ce47fc8bc6b9ae8dfda1e8d7119616",
+        "size_in_bytes": 428
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "18e893342e7ac8254741ea1dbae1b1f8e7771f2fdbb12e591e55f3a0519343ef",
+  "size": 559512,
+  "subdir": "win-64",
+  "timestamp": 1668757474000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/cfitsio-4.2.0-h9ebe7e4_0.conda",
+  "version": "4.2.0"
+}

@@ -1,0 +1,8 @@
+poppler_datadir=C:/Users/mouss/modeling/training/univ_ouaga1_2026/source/lage/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.12
+
+Cflags: -DPOPPLER_DATADIR=C:/Users/mouss/modeling/training/univ_ouaga1_2026/source/lage/share/poppler
+

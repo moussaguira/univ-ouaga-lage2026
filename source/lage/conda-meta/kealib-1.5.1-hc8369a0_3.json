@@ -1,0 +1,162 @@
+{
+  "build": "hc8369a0_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "hdf5 >=1.14.0,<1.14.1.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\mouss\\mambaforge\\pkgs\\kealib-1.5.1-hc8369a0_3",
+  "features": "",
+  "files": [
+    "Library/bin/kea-config.bat",
+    "Library/bin/libkea.dll",
+    "Library/include/libkea/KEAAttributeTable.h",
+    "Library/include/libkea/KEAAttributeTableFile.h",
+    "Library/include/libkea/KEAAttributeTableInMem.h",
+    "Library/include/libkea/KEACommon.h",
+    "Library/include/libkea/KEAException.h",
+    "Library/include/libkea/KEAImageIO.h",
+    "Library/include/libkea/kea-config.h",
+    "Library/include/libkea/kea_export.h",
+    "Library/lib/cmake/libkea/libkeaConfig.cmake",
+    "Library/lib/cmake/libkea/libkeaConfigVersion.cmake",
+    "Library/lib/cmake/libkea/libkeaTargets-release.cmake",
+    "Library/lib/cmake/libkea/libkeaTargets.cmake",
+    "Library/lib/libkea.lib"
+  ],
+  "fn": "kealib-1.5.1-hc8369a0_3.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\mouss\\mambaforge\\pkgs\\kealib-1.5.1-hc8369a0_3",
+    "type": 1
+  },
+  "md5": "3df257a636743a428882b29b0bcfc600",
+  "name": "kealib",
+  "package_tarball_full_path": "C:\\Users\\mouss\\mambaforge\\pkgs\\kealib-1.5.1-hc8369a0_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/kea-config.bat",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/kealib-split_1684389794696/_h_env",
+        "sha256": "9f46bfb2f82b1291672b56779e7a68858582e366e7119e8ff67f2c7003af4346",
+        "sha256_in_prefix": "5234f3aa244fee6747c9517ebda392c8719522a4d7d153f96b1afd7778f0fd39",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "Library/bin/libkea.dll",
+        "path_type": "hardlink",
+        "sha256": "b415a0dd0e558ba4f77488825856c18dce8f5dd9eebf0778d5aa349285f054cb",
+        "sha256_in_prefix": "b415a0dd0e558ba4f77488825856c18dce8f5dd9eebf0778d5aa349285f054cb",
+        "size_in_bytes": 371200
+      },
+      {
+        "_path": "Library/include/libkea/KEAAttributeTable.h",
+        "path_type": "hardlink",
+        "sha256": "5c6f955fa6de8ed38dc91eb5940594ed82538ed3a897d4b08fe30f9cdd17ba69",
+        "sha256_in_prefix": "5c6f955fa6de8ed38dc91eb5940594ed82538ed3a897d4b08fe30f9cdd17ba69",
+        "size_in_bytes": 8648
+      },
+      {
+        "_path": "Library/include/libkea/KEAAttributeTableFile.h",
+        "path_type": "hardlink",
+        "sha256": "ac1c9b598fe4ad9a8d5822332364167c6c8a0aeef17b2ebf67c96f590df4b4d5",
+        "sha256_in_prefix": "ac1c9b598fe4ad9a8d5822332364167c6c8a0aeef17b2ebf67c96f590df4b4d5",
+        "size_in_bytes": 5044
+      },
+      {
+        "_path": "Library/include/libkea/KEAAttributeTableInMem.h",
+        "path_type": "hardlink",
+        "sha256": "5b2665d402d721ad5d502e772dcd7d66b01f453639167e816c2705cf18a59b80",
+        "sha256_in_prefix": "5b2665d402d721ad5d502e772dcd7d66b01f453639167e816c2705cf18a59b80",
+        "size_in_bytes": 4663
+      },
+      {
+        "_path": "Library/include/libkea/KEACommon.h",
+        "path_type": "hardlink",
+        "sha256": "5e9e83ffbfbaf109e34b66663c22d083583bdbb01bb07faf7aa54785162c9c6a",
+        "sha256_in_prefix": "5e9e83ffbfbaf109e34b66663c22d083583bdbb01bb07faf7aa54785162c9c6a",
+        "size_in_bytes": 10905
+      },
+      {
+        "_path": "Library/include/libkea/KEAException.h",
+        "path_type": "hardlink",
+        "sha256": "0354bb735ed858506822ce7e288c2b1fe6599604411a25e6e47b258247178d64",
+        "sha256_in_prefix": "0354bb735ed858506822ce7e288c2b1fe6599604411a25e6e47b258247178d64",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "Library/include/libkea/KEAImageIO.h",
+        "path_type": "hardlink",
+        "sha256": "89b73380bdac0fc246229b7e296832ff97247d1420120899c9229012b9a3bc50",
+        "sha256_in_prefix": "89b73380bdac0fc246229b7e296832ff97247d1420120899c9229012b9a3bc50",
+        "size_in_bytes": 9575
+      },
+      {
+        "_path": "Library/include/libkea/kea-config.h",
+        "path_type": "hardlink",
+        "sha256": "4a167afbb573c8291fd53065e20f1c5ff3baad530feddbb5fccb5c481093031e",
+        "sha256_in_prefix": "4a167afbb573c8291fd53065e20f1c5ff3baad530feddbb5fccb5c481093031e",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "Library/include/libkea/kea_export.h",
+        "path_type": "hardlink",
+        "sha256": "2cbe70db078d4f38ce9a829dd9feb2fdb9f6daa8677eb4c5ff2e2d905ffdb615",
+        "sha256_in_prefix": "2cbe70db078d4f38ce9a829dd9feb2fdb9f6daa8677eb4c5ff2e2d905ffdb615",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "Library/lib/cmake/libkea/libkeaConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "40c32c1208fec6b354a6878d7463cb924004d1127101821c3ac0e6647f361333",
+        "sha256_in_prefix": "40c32c1208fec6b354a6878d7463cb924004d1127101821c3ac0e6647f361333",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "Library/lib/cmake/libkea/libkeaConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "9b5f005e35885aa98e7841dab537f7400b387d6a6bf00a39a00766ad9420b553",
+        "sha256_in_prefix": "9b5f005e35885aa98e7841dab537f7400b387d6a6bf00a39a00766ad9420b553",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "Library/lib/cmake/libkea/libkeaTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "9394a6ea926d94543f760b0fcb5badf8fdab1531fb30e083365eb22ad5f468e9",
+        "sha256_in_prefix": "9394a6ea926d94543f760b0fcb5badf8fdab1531fb30e083365eb22ad5f468e9",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "Library/lib/cmake/libkea/libkeaTargets.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/kealib-split_1684389794696/_h_env",
+        "sha256": "5f0630f488fcf92bf49b6a1a0e9d366e6d083ec662f65f29751c925d47f987ff",
+        "sha256_in_prefix": "325c81e622162faf8834034eb815a4e66624e195aaef16cfb587b3a70221c732",
+        "size_in_bytes": 4503
+      },
+      {
+        "_path": "Library/lib/libkea.lib",
+        "path_type": "hardlink",
+        "sha256": "5a545583fdf53baf3ed7cbdc1d97dce1ba4ceeb2fe52d10b53fbe78c12cf0f2c",
+        "sha256_in_prefix": "5a545583fdf53baf3ed7cbdc1d97dce1ba4ceeb2fe52d10b53fbe78c12cf0f2c",
+        "size_in_bytes": 118160
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "008fbff79c4f172e8f321f04c5fa07e9716bcc85bfb7a463d11e87d78c760b9e",
+  "size": 134050,
+  "subdir": "win-64",
+  "timestamp": 1684390158000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/kealib-1.5.1-hc8369a0_3.conda",
+  "version": "1.5.1"
+}

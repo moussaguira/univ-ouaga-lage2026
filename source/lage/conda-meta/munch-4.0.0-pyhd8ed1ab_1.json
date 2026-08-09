@@ -1,0 +1,130 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\Users\\mouss\\mambaforge\\pkgs\\munch-4.0.0-pyhd8ed1ab_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/munch-4.0.0.dist-info/AUTHORS",
+    "Lib/site-packages/munch-4.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/munch-4.0.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/munch-4.0.0.dist-info/METADATA",
+    "Lib/site-packages/munch-4.0.0.dist-info/RECORD",
+    "Lib/site-packages/munch-4.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/munch-4.0.0.dist-info/WHEEL",
+    "Lib/site-packages/munch-4.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/munch-4.0.0.dist-info/pbr.json",
+    "Lib/site-packages/munch-4.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/munch/__init__.py",
+    "Lib/site-packages/munch/__pycache__/__init__.cpython-39.pyc"
+  ],
+  "fn": "munch-4.0.0-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\mouss\\mambaforge\\pkgs\\munch-4.0.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "7bdab6a71f575df952175f7825aea324",
+  "name": "munch",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\mouss\\mambaforge\\pkgs\\munch-4.0.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "de7761956108db05e505b9b5661faa5b0258f717100081da649defa687410602",
+        "sha256_in_prefix": "de7761956108db05e505b9b5661faa5b0258f717100081da649defa687410602",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "57ca95c92059c8380625192462979bd32994aae3fcdf902ff6eb1e467eeb0469",
+        "sha256_in_prefix": "57ca95c92059c8380625192462979bd32994aae3fcdf902ff6eb1e467eeb0469",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "608ef89942a77379bd92273aaf83ce24a02fa463953861da5a087ffb809d2f67",
+        "sha256_in_prefix": "608ef89942a77379bd92273aaf83ce24a02fa463953861da5a087ffb809d2f67",
+        "size_in_bytes": 5855
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fc6b553e674668db5df26a650eb180f19c6c5a489b5a7ae6a7aad4b8d1271fe5",
+        "sha256_in_prefix": "fc6b553e674668db5df26a650eb180f19c6c5a489b5a7ae6a7aad4b8d1271fe5",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c01a0c0fd0037f84288f767a2a30ecb7657d14abe616a3bd020445e84d876625",
+        "sha256_in_prefix": "c01a0c0fd0037f84288f767a2a30ecb7657d14abe616a3bd020445e84d876625",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "ba78e226b3c5b306a7cd9f505441b464f6018a6bd3bcba3e633dd4cd8d19508c",
+        "sha256_in_prefix": "ba78e226b3c5b306a7cd9f505441b464f6018a6bd3bcba3e633dd4cd8d19508c",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/munch-4.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3d11cdf0c61a579e22b2c5ec73edd275ef8d74a04b2fb057b1a7ddec76b0f081",
+        "sha256_in_prefix": "3d11cdf0c61a579e22b2c5ec73edd275ef8d74a04b2fb057b1a7ddec76b0f081",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/munch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5752d6c0a320d9875c2722c2a4ebc2fe0c923ab36138fdc1cbe64b48c9efee86",
+        "sha256_in_prefix": "5752d6c0a320d9875c2722c2a4ebc2fe0c923ab36138fdc1cbe64b48c9efee86",
+        "size_in_bytes": 22499
+      },
+      {
+        "_path": "Lib/site-packages/munch/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "af5038331294c7ec53a1f65e3fe65f24b1404be249e06fea74b7f302c9502186",
+  "size": 15246,
+  "subdir": "noarch",
+  "timestamp": 1734441350000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/munch-4.0.0-pyhd8ed1ab_1.conda",
+  "version": "4.0.0"
+}
