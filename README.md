@@ -54,7 +54,7 @@ You need a Python distribution that includes `conda` (a tool for managing Python
 3. Run the installer and accept the default settings.
 4. Miniforge comes with both `conda` and `mamba` pre-installed.
 
-5. After installing either option, close and reopen Git Bash, then confirm the install by typing:
+5. After installing either option, open Miniforge (or Anaconda), then confirm the install by typing:
 
 ```bash
    conda --version
@@ -250,7 +250,7 @@ Vous avez besoin d'une distribution Python qui inclut `conda` (un outil de gesti
 3. Exécutez l'installateur et acceptez les paramètres par défaut.
 4. Miniforge est fourni avec `conda` et `mamba` déjà installés.
 
-5. Après avoir installé l'une ou l'autre option, fermez puis rouvrez Git Bash, et vérifiez l'installation en tapant :
+5. Après avoir installé l'une ou l'autre option, demarrez Miniforge (ou Anaconda selon), et vérifiez l'installation en tapant :
 
 ```bash
    conda --version
